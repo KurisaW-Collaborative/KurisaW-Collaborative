@@ -1,10 +1,10 @@
-title = "KurisaW-Collaborative"
-copyright = "Copyright © 2023 KurisaW-Collaborative."
+title = "Hinode"
+copyright = "Copyright © 2023 Mark Dumay."
 paginate = 9
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://KurisaW-Collaborative.github.io/"
+baseURL = "https://child.gethinode.com/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
