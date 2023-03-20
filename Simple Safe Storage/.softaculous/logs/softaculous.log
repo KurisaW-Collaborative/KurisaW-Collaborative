@@ -1,0 +1,3260 @@
+[epiz_33829184] [2023-03-19 04:41:48] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 04:43:20] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 04:44:26] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 04:56:06] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 04:57:12] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 04:57:49] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 04:58:51] [software] Software Details : array (
+  'name' => 'WordPress',
+  'softname' => 'wp',
+  'desc' => 'WordPress is a state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.',
+  'ins' => 1,
+  'cat' => 'blogs',
+  'type' => 'php',
+  'ver' => '6.1.1',
+  'pre_down' => 1,
+  'path' => '/var/softaculous/wp',
+  'has_theme' => 'WordPress',
+  'update_plugins' => 1,
+  'update_themes' => 1,
+  'verify_dom' => 0,
+  'has_minor' => 1,
+  'idn_dir' => 1,
+  'spacereq' => '66464155',
+  'branch' => 
+  array (
+    26 => 
+    array (
+      'min' => '',
+      'ver' => '6.1.1',
+    ),
+    702 => 
+    array (
+      'min' => '',
+      'ver' => '5.9.5',
+    ),
+    694 => 
+    array (
+      'min' => '',
+      'ver' => '5.8.6',
+    ),
+    684 => 
+    array (
+      'min' => '',
+      'ver' => '5.7.8',
+    ),
+    678 => 
+    array (
+      'min' => '',
+      'ver' => '5.6.10',
+    ),
+    672 => 
+    array (
+      'min' => '',
+      'ver' => '5.5.11',
+    ),
+    666 => 
+    array (
+      'min' => '',
+      'ver' => '5.4.12',
+    ),
+    660 => 
+    array (
+      'min' => '',
+      'ver' => '5.3.14',
+    ),
+    656 => 
+    array (
+      'min' => '',
+      'ver' => '5.2.17',
+    ),
+    650 => 
+    array (
+      'min' => '',
+      'ver' => '5.1.15',
+    ),
+    648 => 
+    array (
+      'min' => '',
+      'ver' => '5.0.18',
+    ),
+    646 => 
+    array (
+      'min' => '',
+      'ver' => '4.9.22',
+    ),
+  ),
+  'adminurl' => 'wp-admin/',
+)
+
+[epiz_33829184] [2023-03-19 04:58:51] [software] Software Settings : array (
+  'Database Settings' => 
+  array (
+    'dbprefix' => 
+    array (
+      'tag' => '<input type="text" name="dbprefix" id="dbprefix" size="30" value="wpqh_">',
+      'head' => 'Table Prefix',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'wp_',
+    ),
+  ),
+  'Site Settings' => 
+  array (
+    'site_name' => 
+    array (
+      'tag' => '<input type="text" name="site_name" id="site_name" size="30" value="My Blog">',
+      'head' => 'Site Name',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 'My Blog',
+    ),
+    'site_desc' => 
+    array (
+      'tag' => '<input type="text" name="site_desc" id="site_desc" size="30" value="My WordPress Blog">',
+      'head' => 'Site Description',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'My WordPress Blog',
+    ),
+    'multisite' => 
+    array (
+      'tag' => '<input type="checkbox" name="multisite" id="multisite" value="off"  >',
+      'head' => 'Enable Multisite (WPMU)',
+      'exp' => 'This feature will Enable Multisite option for your WordPress blog. <br />Your server must support Apache mod_rewrite to use this feature.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'disable_wp_cron' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="checkbox" name="disable_wp_cron" id="disable_wp_cron" value="off" save="true"  >',
+      'head' => 'Disable WordPress Cron',
+      'exp' => 'If selected, WordPress cron will be disabled and a cron job will be added in your control panel to be executed twice an hour.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+  'Admin Account' => 
+  array (
+    'admin_username' => 
+    array (
+      'tag' => '<input type="text" name="admin_username" id="admin_username" size="30" value="">',
+      'head' => 'Admin Username',
+      'exp' => NULL,
+      'handle' => '__admin_username',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+    'admin_pass' => 
+    array (
+      'tag' => '<input type="text" autocomplete="off" name="admin_pass" id="admin_pass" size="30" value="331F93v@Ik">',
+      'head' => 'Admin Password',
+      'exp' => NULL,
+      'handle' => '__ad_pass',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'pass',
+    ),
+    'admin_email' => 
+    array (
+      'tag' => '<input type="text" name="admin_email" id="admin_email" size="30" value="2053731441@qq.com" softmail="true">',
+      'head' => 'Admin Email',
+      'exp' => NULL,
+      'handle' => '__email_address',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+  ),
+  'Choose Language' => 
+  array (
+    'language' => 
+    array (
+      'tag' => '<select name="language" id="language">
+					<option value="en" selected="selected">English</option>
+					<option value="ar">Arabic</option>
+					<option value="sq">Albanian</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca">Catalan</option>
+					<option value="zh_CN">Chinese - Simplified</option>
+					<option value="zh_TW">Chinese - Traditional</option>
+					<option value="hr">Croatian</option>	
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="fi">Finnish</option>
+					<option value="fr_FR">French</option>
+					<option value="de_DE">German</option>
+					<option value="el">Greek</option>
+					<option value="he_IL">Hebrew</option>
+					<option value="hu_HU">Hungarian</option>	
+					<option value="id_ID">Indonesian</option>
+					<option value="it_IT">Italian</option>	
+					<option value="ja">Japanese</option>
+					<option value="ko_KR">Korean</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="fa_IR">Persian</option>
+					<option value="pl_PL">Polish</option>	
+					<option value="pt_PT">Portuguese</option>
+					<option value="pt_BR">Portuguese - BR</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sl_SI">Slovenian</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="es_ES">Spanish</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="th">Thai</option>
+					<option value="tr_TR">Turkish</option>
+					<option value="uk">Ukrainian</option>
+					<option value="vi">Vietnamese</option>
+					<option value="zh_HK">Chinese - Hong Kong</option>
+				</select>',
+      'head' => 'Select Language',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 
+      array (
+        0 => 'en',
+        1 => 'ar',
+        2 => 'sq',
+        3 => 'bg_BG',
+        4 => 'ca',
+        5 => 'zh_CN',
+        6 => 'zh_TW',
+        7 => 'hr',
+        8 => 'cs_CZ',
+        9 => 'da_DK',
+        10 => 'nl_NL',
+        11 => 'fi',
+        12 => 'fr_FR',
+        13 => 'de_DE',
+        14 => 'el',
+        15 => 'he_IL',
+        16 => 'hu_HU',
+        17 => 'id_ID',
+        18 => 'it_IT',
+        19 => 'ja',
+        20 => 'ko_KR',
+        21 => 'nb_NO',
+        22 => 'fa_IR',
+        23 => 'pl_PL',
+        24 => 'pt_PT',
+        25 => 'pt_BR',
+        26 => 'ro_RO',
+        27 => 'ru_RU',
+        28 => 'sl_SI',
+        29 => 'sk_SK',
+        30 => 'es_ES',
+        31 => 'sv_SE',
+        32 => 'th',
+        33 => 'tr_TR',
+        34 => 'uk',
+        35 => 'vi',
+        36 => 'zh_HK',
+      ),
+    ),
+  ),
+  'Select Plugin(s)' => 
+  array (
+    'backuply' => 
+    array (
+      'tag' => '<input type="checkbox" name="backuply" id="backuply" value="on" class="soft-left-checkbox" style="float: left;margin-right: 8px;"  >',
+      'head' => 'Backups (Backuply)',
+      'exp' => 'Backup your WordPress website, and save your site from loss of data because of server crashes, hacks, dodgy updates, or bad plugins.<br />
+		If selected Backuply plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/backuply/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'speedycache' => 
+    array (
+      'tag' => '<input type="checkbox" class="soft-left-checkbox" name="speedycache" id="speedycache" value="off"  >',
+      'head' => 'Improve Page Speed (SpeedyCache)',
+      'exp' => 'Speed up your WordPress website and improve page ranking !',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'loginizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="loginizer" id="loginizer" value="on"  >',
+      'head' => 'Limit Login Attempts (Loginizer)',
+      'exp' => 'Protect your site against bruteforce attacks by limiting the number of login attempts for your WordPress installation.<br />
+		If selected Loginizer plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/loginizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'gosmtp' => 
+    array (
+      'tag' => '<input type="checkbox" name="gosmtp" id="gosmtp" class="soft-left-checkbox" value="on"  >',
+      'head' => 'Email with SMTP (GoSMTP)',
+      'exp' => 'GoSMTP send emails from your WordPress site using your preferred SMTP provider like Gmail, Outlook, AWS, Zoho, SMTP.com, Sendinblue, Mailgun, Postmark, Sendgrid, Sparkpost, Sendlayer or any custom SMTP provider.<br />
+		Click <a href="https://wordpress.org/plugins/gosmtp/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'fileorganizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="fileorganizer" id="fileorganizer" class="soft-left-checkbox" value="on"  >',
+      'head' => 'File Manager(FileOrganizer)',
+      'exp' => 'FileOrganizer is a plugin that helps you to manage all files in your WordPress Site. FileOrganizer provides you the ability to edit, delete, upload, download, copy and paste files and folders.<br />
+		Click <a href="https://wordpress.org/plugins/fileorganizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'classic-editor' => 
+    array (
+      'tag' => '<input type="checkbox" name="classic-editor" id="classic-editor" value="off"  >',
+      'head' => 'Classic Editor',
+      'exp' => 'Classic Editor restores the previous WordPress editor and the Edit Post screen and makes it possible to use the plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor.<br />
+		If selected classic-editor plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/classic-editor/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+)
+
+[epiz_33829184] [2023-03-19 04:58:51] [software] Software Info : array (
+  'overview' => '<img src="logo.png" style="float:right;" alt="" /><font size="5" color="#182e7a">WordPress</font> is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.<br /><br />
+		The core software is built by hundreds of community volunteers, and when you\'re ready for more there are thousands of plugins and themes available to transform your site into almost anything you can imagine.
+		<br /><br />Over 60 million people have chosen WordPress to power the place on the web they call "home" we\'d love you to join the family.
+		<br /><br />
+		WordPress is an <a href="http://opensource.org/" target="_blank">Open Source</a> project, which means there are hundreds of people all over the world working on it. (More than most commercial platforms.) It also means you are free to use it for anything from your recipe site to a Fortune 500 web site without paying anyone a license fee.',
+  'install' => '',
+  'features' => 'WordPress powers more than 23% of the web - a figure that rises every day. Everything from simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with WordPress.<br /><br />
+WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. This makes it flexible while still being easy-to-use.<br /><br />
+The following is a list of some of the features that come as standard with WordPress; however, there are literally thousands of plugins that extend what WordPress does, so the actual functionality is nearly limitless. You are also free to do whatever you like with the WordPress code, extend it or modify in any way or use it for commercial projects without any licensing fees. That is the beauty of free software, free refers not only to price but also the freedom to have complete control over it.<br /><br />
+<ul><li><strong>Simplicity</strong>
+Simplicity makes it possible for you to get online and get publishing, quickly. Nothing should get in the way of you getting your website up and your content out there. WordPress is built to make that happen.
+</li>
+<li><strong>Flexibility</strong>
+With WordPress, you can create any type of website you want: a personal blog or website, a photoblog, a business website, a professional portfolio, a government website, a magazine or news website, an online community, even a network of websites. You can make your website beautiful with themes, and extend it with plugins. You can even build your very own application.
+</li>
+<li><strong>Publish with Ease</strong>
+If you\'ve ever created a document, you\'re already a whizz at creating content with WordPress. You can create Posts and Pages, format them easily, insert media, and with the click of a button your content is live and on the web.
+</li>
+<li><strong>Publishing Tools</strong>
+WordPress makes it easy for you to manage your content. Create drafts, schedule publication, and look at your post revisions. Make your content public or private, and secure posts and pages with a password.
+</li>
+<li><strong>User Management</strong>
+Not everyone requires the same access to your website. Administrators manage the site, editors work with content, authors and contributors write that content, and subscribers have a profile that they can manage. This lets you have a variety of contributors to your website, and let others simply be part of your community.
+</li>
+<li><strong>Media Management</strong>
+They say a picture says a thousand words, which is why it\'s important for you to be able to quickly and easily upload images and media to WordPress. Drag and drop your media into the uploader to add it to your website. Add alt text, captions, and titles, and insert images and galleries into your content. We\'ve even added a few image editing tools you can have fun with.
+</li>
+<li><strong>Full Standards Compliance</strong>
+Every piece of WordPress generated code is in full compliance with the standards set by the W3C. This means that your website will work in today\'s browser, while maintaining forward compatibility with the next generation of browser. Your website is a beautiful thing, now and in the future.
+</li>
+<li><strong>Easy Theme System</strong>
+WordPress comes bundled with two default themes, but if they aren\'t for you there\'s a theme directory with thousands of themes for you to create a beautiful website. None of those to your taste? Upload your own theme with the click of a button. It only takes a few seconds for you to give your website a complete makeover.
+</li>
+<li><strong>Extend with Plugins</strong>
+WordPress comes packed full of features for every user, for every other feature there\'s a plugin directory with thousands of plugins. Add complex galleries, social networking, forums, social media widgets, spam protection, calendars, fine-tune controls for search engine optimization, and forms.
+</li>
+<li><strong>Built-in Comments</strong>
+Your blog is your home, and comments provide a space for your friends and followers to engage with your content. WordPress\'s comment tools give you everything you need to be a forum for discussion and to moderate that discussion.
+</li>
+<li><strong>Search Engine Optimized</strong>
+WordPress is optimized for search engines right out of the box. For more fine-grained SEO control, there are plenty of <a href="https://wordpress.org/plugins/search.php?q=SEO">SEO plugins</a> to take care of that for you.
+</li>
+<li><strong>Multilingual</strong>
+WordPress is available in more than 70 languages. If you or the person you\'re building the website for would prefer to use WordPress in a language other than English, <a href="https://codex.wordpress.org/WordPress_in_Your_Language">that\'s easy to do</a>.
+</li>
+<li><strong>Own Your Data</strong>
+Hosted services come and go. If you\'ve ever used a service that disappeared, you know how traumatic that can be. If you\'ve ever seen adverts appear on your website, you\'ve probably been pretty annoyed. Using WordPress means no one has access to your content. Own your data, all of it - your website, your content, your data.
+</li>
+<li><strong>Freedom</strong>
+WordPress is licensed under the GPL which was created to protect your freedoms. You are free to use WordPress in any way you choose: install it, use it, modify it, distribute it. Software freedom is the foundation that WordPress is built on.
+</li>
+<li><strong>Community</strong>
+As the most popular open source CMS on the web, WordPress has a vibrant and supportive community. Ask a question on the support forums and get help from a volunteer, attend a WordCamp or Meetup to learn more about WordPress, read blogs posts and tutorials about WordPress. Community is at the heart of WordPress, making it what it is today.
+</li>
+<li><strong>Contribute</strong>
+You can be WordPress too! Help to build WordPress, answer questions on the support forums, write documentation, translate WordPress into your language, speak at a WordCamp, write about WordPress on your blog. Whatever your skill, we\'d love to have you!
+</li>
+</ul>',
+  'demo' => 'http://www.softaculous.com/demos/WordPress',
+  'ratings' => 'http://www.softaculous.com/softwares/blogs/WordPress',
+  'support' => 'http://www.wordpress.org/',
+  'release_date' => '15-11-2022',
+  'mod' => '222',
+  'mod_files' => '1',
+  'import' => true,
+)
+
+[epiz_33829184] [2023-03-19 04:58:51] [software] Finished calling pre install hooks
+
+[epiz_33829184] [2023-03-19 04:58:51] [software] Task Key : t5l6dm1zy9FUslYnmcbe9YQo7IIgA6OU
+
+[epiz_33829184] [2023-03-19 04:58:51] [software] http://kurisaw.42web.io Completed DB Details Checks : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w625',
+  'softdbuser' => '33829184_1',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => ']q62p-Snj2',
+)
+
+[epiz_33829184] [2023-03-19 04:58:51] [software] http://kurisaw.42web.io Processed Posted Settings : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w625',
+  'softdbuser' => '33829184_1',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => ']q62p-Snj2',
+  'dbprefix' => 'wpqh_',
+  'site_name' => 'My Blog',
+  'site_desc' => 'My WordPress Blog',
+  'multisite' => '',
+  'disable_wp_cron' => '',
+  'admin_username' => NULL,
+  'language' => 'en',
+  'backuply' => '',
+)
+
+[epiz_33829184] [2023-03-19 04:58:51] [software] http://kurisaw.42web.io Finished loading __post_settings
+
+[epiz_33829184] [2023-03-19 04:58:53] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] Software Details : array (
+  'name' => 'WordPress',
+  'softname' => 'wp',
+  'desc' => 'WordPress is a state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.',
+  'ins' => 1,
+  'cat' => 'blogs',
+  'type' => 'php',
+  'ver' => '6.1.1',
+  'pre_down' => 1,
+  'path' => '/var/softaculous/wp',
+  'has_theme' => 'WordPress',
+  'update_plugins' => 1,
+  'update_themes' => 1,
+  'verify_dom' => 0,
+  'has_minor' => 1,
+  'idn_dir' => 1,
+  'spacereq' => '66464155',
+  'branch' => 
+  array (
+    26 => 
+    array (
+      'min' => '',
+      'ver' => '6.1.1',
+    ),
+    702 => 
+    array (
+      'min' => '',
+      'ver' => '5.9.5',
+    ),
+    694 => 
+    array (
+      'min' => '',
+      'ver' => '5.8.6',
+    ),
+    684 => 
+    array (
+      'min' => '',
+      'ver' => '5.7.8',
+    ),
+    678 => 
+    array (
+      'min' => '',
+      'ver' => '5.6.10',
+    ),
+    672 => 
+    array (
+      'min' => '',
+      'ver' => '5.5.11',
+    ),
+    666 => 
+    array (
+      'min' => '',
+      'ver' => '5.4.12',
+    ),
+    660 => 
+    array (
+      'min' => '',
+      'ver' => '5.3.14',
+    ),
+    656 => 
+    array (
+      'min' => '',
+      'ver' => '5.2.17',
+    ),
+    650 => 
+    array (
+      'min' => '',
+      'ver' => '5.1.15',
+    ),
+    648 => 
+    array (
+      'min' => '',
+      'ver' => '5.0.18',
+    ),
+    646 => 
+    array (
+      'min' => '',
+      'ver' => '4.9.22',
+    ),
+  ),
+  'adminurl' => 'wp-admin/',
+)
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] Software Settings : array (
+  'Database Settings' => 
+  array (
+    'dbprefix' => 
+    array (
+      'tag' => '<input type="text" name="dbprefix" id="dbprefix" size="30" value="wpqh_">',
+      'head' => 'Table Prefix',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'wp_',
+    ),
+  ),
+  'Site Settings' => 
+  array (
+    'site_name' => 
+    array (
+      'tag' => '<input type="text" name="site_name" id="site_name" size="30" value="My Blog">',
+      'head' => 'Site Name',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 'My Blog',
+    ),
+    'site_desc' => 
+    array (
+      'tag' => '<input type="text" name="site_desc" id="site_desc" size="30" value="My WordPress Blog">',
+      'head' => 'Site Description',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'My WordPress Blog',
+    ),
+    'multisite' => 
+    array (
+      'tag' => '<input type="checkbox" name="multisite" id="multisite" value="off"  >',
+      'head' => 'Enable Multisite (WPMU)',
+      'exp' => 'This feature will Enable Multisite option for your WordPress blog. <br />Your server must support Apache mod_rewrite to use this feature.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'disable_wp_cron' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="checkbox" name="disable_wp_cron" id="disable_wp_cron" value="off" save="true"  >',
+      'head' => 'Disable WordPress Cron',
+      'exp' => 'If selected, WordPress cron will be disabled and a cron job will be added in your control panel to be executed twice an hour.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+  'Admin Account' => 
+  array (
+    'admin_username' => 
+    array (
+      'tag' => '<input type="text" name="admin_username" id="admin_username" size="30" value="kurisaW">',
+      'head' => 'Admin Username',
+      'exp' => NULL,
+      'handle' => '__admin_username',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+    'admin_pass' => 
+    array (
+      'tag' => '<input type="text" autocomplete="off" name="admin_pass" id="admin_pass" size="30" value="wyq@2624192634..">',
+      'head' => 'Admin Password',
+      'exp' => NULL,
+      'handle' => '__ad_pass',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'pass',
+    ),
+    'admin_email' => 
+    array (
+      'tag' => '<input type="text" name="admin_email" id="admin_email" size="30" value="2053731441@qq.com" softmail="true">',
+      'head' => 'Admin Email',
+      'exp' => NULL,
+      'handle' => '__email_address',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+  ),
+  'Choose Language' => 
+  array (
+    'language' => 
+    array (
+      'tag' => '<select name="language" id="language">
+					<option value="en" selected="selected">English</option>
+					<option value="ar">Arabic</option>
+					<option value="sq">Albanian</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca">Catalan</option>
+					<option value="zh_CN">Chinese - Simplified</option>
+					<option value="zh_TW">Chinese - Traditional</option>
+					<option value="hr">Croatian</option>	
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="fi">Finnish</option>
+					<option value="fr_FR">French</option>
+					<option value="de_DE">German</option>
+					<option value="el">Greek</option>
+					<option value="he_IL">Hebrew</option>
+					<option value="hu_HU">Hungarian</option>	
+					<option value="id_ID">Indonesian</option>
+					<option value="it_IT">Italian</option>	
+					<option value="ja">Japanese</option>
+					<option value="ko_KR">Korean</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="fa_IR">Persian</option>
+					<option value="pl_PL">Polish</option>	
+					<option value="pt_PT">Portuguese</option>
+					<option value="pt_BR">Portuguese - BR</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sl_SI">Slovenian</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="es_ES">Spanish</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="th">Thai</option>
+					<option value="tr_TR">Turkish</option>
+					<option value="uk">Ukrainian</option>
+					<option value="vi">Vietnamese</option>
+					<option value="zh_HK">Chinese - Hong Kong</option>
+				</select>',
+      'head' => 'Select Language',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 
+      array (
+        0 => 'en',
+        1 => 'ar',
+        2 => 'sq',
+        3 => 'bg_BG',
+        4 => 'ca',
+        5 => 'zh_CN',
+        6 => 'zh_TW',
+        7 => 'hr',
+        8 => 'cs_CZ',
+        9 => 'da_DK',
+        10 => 'nl_NL',
+        11 => 'fi',
+        12 => 'fr_FR',
+        13 => 'de_DE',
+        14 => 'el',
+        15 => 'he_IL',
+        16 => 'hu_HU',
+        17 => 'id_ID',
+        18 => 'it_IT',
+        19 => 'ja',
+        20 => 'ko_KR',
+        21 => 'nb_NO',
+        22 => 'fa_IR',
+        23 => 'pl_PL',
+        24 => 'pt_PT',
+        25 => 'pt_BR',
+        26 => 'ro_RO',
+        27 => 'ru_RU',
+        28 => 'sl_SI',
+        29 => 'sk_SK',
+        30 => 'es_ES',
+        31 => 'sv_SE',
+        32 => 'th',
+        33 => 'tr_TR',
+        34 => 'uk',
+        35 => 'vi',
+        36 => 'zh_HK',
+      ),
+    ),
+  ),
+  'Select Plugin(s)' => 
+  array (
+    'backuply' => 
+    array (
+      'tag' => '<input type="checkbox" name="backuply" id="backuply" value="on" class="soft-left-checkbox" style="float: left;margin-right: 8px;"  >',
+      'head' => 'Backups (Backuply)',
+      'exp' => 'Backup your WordPress website, and save your site from loss of data because of server crashes, hacks, dodgy updates, or bad plugins.<br />
+		If selected Backuply plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/backuply/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'speedycache' => 
+    array (
+      'tag' => '<input type="checkbox" class="soft-left-checkbox" name="speedycache" id="speedycache" value="off"  >',
+      'head' => 'Improve Page Speed (SpeedyCache)',
+      'exp' => 'Speed up your WordPress website and improve page ranking !',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'loginizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="loginizer" id="loginizer" value="on"  >',
+      'head' => 'Limit Login Attempts (Loginizer)',
+      'exp' => 'Protect your site against bruteforce attacks by limiting the number of login attempts for your WordPress installation.<br />
+		If selected Loginizer plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/loginizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'gosmtp' => 
+    array (
+      'tag' => '<input type="checkbox" name="gosmtp" id="gosmtp" class="soft-left-checkbox" value="on"  >',
+      'head' => 'Email with SMTP (GoSMTP)',
+      'exp' => 'GoSMTP send emails from your WordPress site using your preferred SMTP provider like Gmail, Outlook, AWS, Zoho, SMTP.com, Sendinblue, Mailgun, Postmark, Sendgrid, Sparkpost, Sendlayer or any custom SMTP provider.<br />
+		Click <a href="https://wordpress.org/plugins/gosmtp/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'fileorganizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="fileorganizer" id="fileorganizer" class="soft-left-checkbox" value="on"  >',
+      'head' => 'File Manager(FileOrganizer)',
+      'exp' => 'FileOrganizer is a plugin that helps you to manage all files in your WordPress Site. FileOrganizer provides you the ability to edit, delete, upload, download, copy and paste files and folders.<br />
+		Click <a href="https://wordpress.org/plugins/fileorganizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'classic-editor' => 
+    array (
+      'tag' => '<input type="checkbox" name="classic-editor" id="classic-editor" value="off"  >',
+      'head' => 'Classic Editor',
+      'exp' => 'Classic Editor restores the previous WordPress editor and the Edit Post screen and makes it possible to use the plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor.<br />
+		If selected classic-editor plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/classic-editor/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+)
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] Software Info : array (
+  'overview' => '<img src="logo.png" style="float:right;" alt="" /><font size="5" color="#182e7a">WordPress</font> is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.<br /><br />
+		The core software is built by hundreds of community volunteers, and when you\'re ready for more there are thousands of plugins and themes available to transform your site into almost anything you can imagine.
+		<br /><br />Over 60 million people have chosen WordPress to power the place on the web they call "home" we\'d love you to join the family.
+		<br /><br />
+		WordPress is an <a href="http://opensource.org/" target="_blank">Open Source</a> project, which means there are hundreds of people all over the world working on it. (More than most commercial platforms.) It also means you are free to use it for anything from your recipe site to a Fortune 500 web site without paying anyone a license fee.',
+  'install' => '',
+  'features' => 'WordPress powers more than 23% of the web - a figure that rises every day. Everything from simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with WordPress.<br /><br />
+WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. This makes it flexible while still being easy-to-use.<br /><br />
+The following is a list of some of the features that come as standard with WordPress; however, there are literally thousands of plugins that extend what WordPress does, so the actual functionality is nearly limitless. You are also free to do whatever you like with the WordPress code, extend it or modify in any way or use it for commercial projects without any licensing fees. That is the beauty of free software, free refers not only to price but also the freedom to have complete control over it.<br /><br />
+<ul><li><strong>Simplicity</strong>
+Simplicity makes it possible for you to get online and get publishing, quickly. Nothing should get in the way of you getting your website up and your content out there. WordPress is built to make that happen.
+</li>
+<li><strong>Flexibility</strong>
+With WordPress, you can create any type of website you want: a personal blog or website, a photoblog, a business website, a professional portfolio, a government website, a magazine or news website, an online community, even a network of websites. You can make your website beautiful with themes, and extend it with plugins. You can even build your very own application.
+</li>
+<li><strong>Publish with Ease</strong>
+If you\'ve ever created a document, you\'re already a whizz at creating content with WordPress. You can create Posts and Pages, format them easily, insert media, and with the click of a button your content is live and on the web.
+</li>
+<li><strong>Publishing Tools</strong>
+WordPress makes it easy for you to manage your content. Create drafts, schedule publication, and look at your post revisions. Make your content public or private, and secure posts and pages with a password.
+</li>
+<li><strong>User Management</strong>
+Not everyone requires the same access to your website. Administrators manage the site, editors work with content, authors and contributors write that content, and subscribers have a profile that they can manage. This lets you have a variety of contributors to your website, and let others simply be part of your community.
+</li>
+<li><strong>Media Management</strong>
+They say a picture says a thousand words, which is why it\'s important for you to be able to quickly and easily upload images and media to WordPress. Drag and drop your media into the uploader to add it to your website. Add alt text, captions, and titles, and insert images and galleries into your content. We\'ve even added a few image editing tools you can have fun with.
+</li>
+<li><strong>Full Standards Compliance</strong>
+Every piece of WordPress generated code is in full compliance with the standards set by the W3C. This means that your website will work in today\'s browser, while maintaining forward compatibility with the next generation of browser. Your website is a beautiful thing, now and in the future.
+</li>
+<li><strong>Easy Theme System</strong>
+WordPress comes bundled with two default themes, but if they aren\'t for you there\'s a theme directory with thousands of themes for you to create a beautiful website. None of those to your taste? Upload your own theme with the click of a button. It only takes a few seconds for you to give your website a complete makeover.
+</li>
+<li><strong>Extend with Plugins</strong>
+WordPress comes packed full of features for every user, for every other feature there\'s a plugin directory with thousands of plugins. Add complex galleries, social networking, forums, social media widgets, spam protection, calendars, fine-tune controls for search engine optimization, and forms.
+</li>
+<li><strong>Built-in Comments</strong>
+Your blog is your home, and comments provide a space for your friends and followers to engage with your content. WordPress\'s comment tools give you everything you need to be a forum for discussion and to moderate that discussion.
+</li>
+<li><strong>Search Engine Optimized</strong>
+WordPress is optimized for search engines right out of the box. For more fine-grained SEO control, there are plenty of <a href="https://wordpress.org/plugins/search.php?q=SEO">SEO plugins</a> to take care of that for you.
+</li>
+<li><strong>Multilingual</strong>
+WordPress is available in more than 70 languages. If you or the person you\'re building the website for would prefer to use WordPress in a language other than English, <a href="https://codex.wordpress.org/WordPress_in_Your_Language">that\'s easy to do</a>.
+</li>
+<li><strong>Own Your Data</strong>
+Hosted services come and go. If you\'ve ever used a service that disappeared, you know how traumatic that can be. If you\'ve ever seen adverts appear on your website, you\'ve probably been pretty annoyed. Using WordPress means no one has access to your content. Own your data, all of it - your website, your content, your data.
+</li>
+<li><strong>Freedom</strong>
+WordPress is licensed under the GPL which was created to protect your freedoms. You are free to use WordPress in any way you choose: install it, use it, modify it, distribute it. Software freedom is the foundation that WordPress is built on.
+</li>
+<li><strong>Community</strong>
+As the most popular open source CMS on the web, WordPress has a vibrant and supportive community. Ask a question on the support forums and get help from a volunteer, attend a WordCamp or Meetup to learn more about WordPress, read blogs posts and tutorials about WordPress. Community is at the heart of WordPress, making it what it is today.
+</li>
+<li><strong>Contribute</strong>
+You can be WordPress too! Help to build WordPress, answer questions on the support forums, write documentation, translate WordPress into your language, speak at a WordCamp, write about WordPress on your blog. Whatever your skill, we\'d love to have you!
+</li>
+</ul>',
+  'demo' => 'http://www.softaculous.com/demos/WordPress',
+  'ratings' => 'http://www.softaculous.com/softwares/blogs/WordPress',
+  'support' => 'http://www.wordpress.org/',
+  'release_date' => '15-11-2022',
+  'mod' => '222',
+  'mod_files' => '1',
+  'import' => true,
+)
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] Finished calling pre install hooks
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] Task Key : t5l6dm1zy9FUslYnmcbe9YQo7IIgA6OU
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] http://kurisaw.42web.io Completed DB Details Checks : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w625',
+  'softdbuser' => '33829184_2',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => 'SN3Fp1J@1@',
+)
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] http://kurisaw.42web.io Processed Posted Settings : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w625',
+  'softdbuser' => '33829184_2',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => 'SN3Fp1J@1@',
+  'dbprefix' => 'wpqh_',
+  'site_name' => 'My Blog',
+  'site_desc' => 'My WordPress Blog',
+  'multisite' => '',
+  'disable_wp_cron' => '',
+  'admin_username' => 'kurisaW',
+  'admin_pass' => '$P$BI20ypxPFjebQYaY85ONeoaDQ/mGZS/',
+  'admin_email' => '2053731441@qq.com',
+  'language' => 'en',
+  'backuply' => '',
+  'speedycache' => '',
+  'loginizer' => '',
+  'gosmtp' => '',
+  'fileorganizer' => '',
+  'classic-editor' => '',
+)
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] http://kurisaw.42web.io Finished loading __post_settings
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] http://kurisaw.42web.io Completed Requirement Checks
+
+[epiz_33829184] [2023-03-19 04:59:29] [software] http://kurisaw.42web.io Creating DB : epiz_33829184_w625 and DB User : 33829184_2
+
+[epiz_33829184] [2023-03-19 04:59:36] [software] http://kurisaw.42web.io Unzipped Package successfully
+
+[epiz_33829184] [2023-03-19 04:59:36] [software] http://kurisaw.42web.io Calling Software installer
+
+[epiz_33829184] [2023-03-19 04:59:54] [software] http://kurisaw.42web.io Finished Software installer
+
+[epiz_33829184] [2023-03-19 04:59:54] [software] http://kurisaw.42web.io Modifying Scripts footer links
+
+[epiz_33829184] [2023-03-19 04:59:54] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentythree/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 04:59:54] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentytwo/inc/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 04:59:54] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentyone/footer.php
+
+[epiz_33829184] [2023-03-19 04:59:54] [software] http://kurisaw.42web.io Saving installation details
+
+[epiz_33829184] [2023-03-19 04:59:54] [software] http://kurisaw.42web.io Finished Install
+
+[epiz_33829184] [2023-03-19 05:15:45] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 05:16:52] [remove] http://kurisaw.42web.io Finished calling pre remove hook
+
+[epiz_33829184] [2023-03-19 05:16:52] [remove] http://kurisaw.42web.io Task Key : rhMCcofQERIC1zfubJMuUG1tQQVVqdgq
+
+[epiz_33829184] [2023-03-19 05:16:52] [remove] http://kurisaw.42web.io Database and Database User Removed
+
+[epiz_33829184] [2023-03-19 05:16:55] [remove] http://kurisaw.42web.io Directory Removed
+
+[epiz_33829184] [2023-03-19 05:16:55] [remove] http://kurisaw.42web.io Finished Remove
+
+[epiz_33829184] [2023-03-19 05:17:05] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 05:19:01] [software] Software Details : array (
+  'name' => 'WordPress',
+  'softname' => 'wp',
+  'desc' => 'WordPress is a state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.',
+  'ins' => 1,
+  'cat' => 'blogs',
+  'type' => 'php',
+  'ver' => '6.1.1',
+  'pre_down' => 1,
+  'path' => '/var/softaculous/wp',
+  'has_theme' => 'WordPress',
+  'update_plugins' => 1,
+  'update_themes' => 1,
+  'verify_dom' => 0,
+  'has_minor' => 1,
+  'idn_dir' => 1,
+  'spacereq' => '66464155',
+  'branch' => 
+  array (
+    26 => 
+    array (
+      'min' => '',
+      'ver' => '6.1.1',
+    ),
+    702 => 
+    array (
+      'min' => '',
+      'ver' => '5.9.5',
+    ),
+    694 => 
+    array (
+      'min' => '',
+      'ver' => '5.8.6',
+    ),
+    684 => 
+    array (
+      'min' => '',
+      'ver' => '5.7.8',
+    ),
+    678 => 
+    array (
+      'min' => '',
+      'ver' => '5.6.10',
+    ),
+    672 => 
+    array (
+      'min' => '',
+      'ver' => '5.5.11',
+    ),
+    666 => 
+    array (
+      'min' => '',
+      'ver' => '5.4.12',
+    ),
+    660 => 
+    array (
+      'min' => '',
+      'ver' => '5.3.14',
+    ),
+    656 => 
+    array (
+      'min' => '',
+      'ver' => '5.2.17',
+    ),
+    650 => 
+    array (
+      'min' => '',
+      'ver' => '5.1.15',
+    ),
+    648 => 
+    array (
+      'min' => '',
+      'ver' => '5.0.18',
+    ),
+    646 => 
+    array (
+      'min' => '',
+      'ver' => '4.9.22',
+    ),
+  ),
+  'adminurl' => 'wp-admin/',
+)
+
+[epiz_33829184] [2023-03-19 05:19:01] [software] Software Settings : array (
+  'Database Settings' => 
+  array (
+    'dbprefix' => 
+    array (
+      'tag' => '<input type="text" name="dbprefix" id="dbprefix" size="30" value="wpra_">',
+      'head' => 'Table Prefix',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'wp_',
+    ),
+  ),
+  'Site Settings' => 
+  array (
+    'site_name' => 
+    array (
+      'tag' => '<input type="text" name="site_name" id="site_name" size="30" value="My Blog">',
+      'head' => 'Site Name',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 'My Blog',
+    ),
+    'site_desc' => 
+    array (
+      'tag' => '<input type="text" name="site_desc" id="site_desc" size="30" value="My WordPress Blog">',
+      'head' => 'Site Description',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'My WordPress Blog',
+    ),
+    'multisite' => 
+    array (
+      'tag' => '<input type="checkbox" name="multisite" id="multisite" value="off"  >',
+      'head' => 'Enable Multisite (WPMU)',
+      'exp' => 'This feature will Enable Multisite option for your WordPress blog. <br />Your server must support Apache mod_rewrite to use this feature.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'disable_wp_cron' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="checkbox" name="disable_wp_cron" id="disable_wp_cron" value="off" save="true"  >',
+      'head' => 'Disable WordPress Cron',
+      'exp' => 'If selected, WordPress cron will be disabled and a cron job will be added in your control panel to be executed twice an hour.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+  'Admin Account' => 
+  array (
+    'admin_username' => 
+    array (
+      'tag' => '<input type="text" name="admin_username" id="admin_username" size="30" value="kurisaW">',
+      'head' => 'Admin Username',
+      'exp' => NULL,
+      'handle' => '__admin_username',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+    'admin_pass' => 
+    array (
+      'tag' => '<input type="text" autocomplete="off" name="admin_pass" id="admin_pass" size="30" value="wyq@2624192634..">',
+      'head' => 'Admin Password',
+      'exp' => NULL,
+      'handle' => '__ad_pass',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'pass',
+    ),
+    'admin_email' => 
+    array (
+      'tag' => '<input type="text" name="admin_email" id="admin_email" size="30" value="2053731441@qq.com" softmail="true">',
+      'head' => 'Admin Email',
+      'exp' => NULL,
+      'handle' => '__email_address',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+  ),
+  'Choose Language' => 
+  array (
+    'language' => 
+    array (
+      'tag' => '<select name="language" id="language">
+					<option value="en">English</option>
+					<option value="ar">Arabic</option>
+					<option value="sq">Albanian</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca">Catalan</option>
+					<option value="zh_CN" selected="selected">Chinese - Simplified</option>
+					<option value="zh_TW">Chinese - Traditional</option>
+					<option value="hr">Croatian</option>	
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="fi">Finnish</option>
+					<option value="fr_FR">French</option>
+					<option value="de_DE">German</option>
+					<option value="el">Greek</option>
+					<option value="he_IL">Hebrew</option>
+					<option value="hu_HU">Hungarian</option>	
+					<option value="id_ID">Indonesian</option>
+					<option value="it_IT">Italian</option>	
+					<option value="ja">Japanese</option>
+					<option value="ko_KR">Korean</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="fa_IR">Persian</option>
+					<option value="pl_PL">Polish</option>	
+					<option value="pt_PT">Portuguese</option>
+					<option value="pt_BR">Portuguese - BR</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sl_SI">Slovenian</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="es_ES">Spanish</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="th">Thai</option>
+					<option value="tr_TR">Turkish</option>
+					<option value="uk">Ukrainian</option>
+					<option value="vi">Vietnamese</option>
+					<option value="zh_HK">Chinese - Hong Kong</option>
+				</select>',
+      'head' => 'Select Language',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 
+      array (
+        0 => 'en',
+        1 => 'ar',
+        2 => 'sq',
+        3 => 'bg_BG',
+        4 => 'ca',
+        5 => 'zh_CN',
+        6 => 'zh_TW',
+        7 => 'hr',
+        8 => 'cs_CZ',
+        9 => 'da_DK',
+        10 => 'nl_NL',
+        11 => 'fi',
+        12 => 'fr_FR',
+        13 => 'de_DE',
+        14 => 'el',
+        15 => 'he_IL',
+        16 => 'hu_HU',
+        17 => 'id_ID',
+        18 => 'it_IT',
+        19 => 'ja',
+        20 => 'ko_KR',
+        21 => 'nb_NO',
+        22 => 'fa_IR',
+        23 => 'pl_PL',
+        24 => 'pt_PT',
+        25 => 'pt_BR',
+        26 => 'ro_RO',
+        27 => 'ru_RU',
+        28 => 'sl_SI',
+        29 => 'sk_SK',
+        30 => 'es_ES',
+        31 => 'sv_SE',
+        32 => 'th',
+        33 => 'tr_TR',
+        34 => 'uk',
+        35 => 'vi',
+        36 => 'zh_HK',
+      ),
+    ),
+  ),
+  'Select Plugin(s)' => 
+  array (
+    'backuply' => 
+    array (
+      'tag' => '<input type="checkbox" name="backuply" id="backuply" value="on" class="soft-left-checkbox" style="float: left;margin-right: 8px;"  >',
+      'head' => 'Backups (Backuply)',
+      'exp' => 'Backup your WordPress website, and save your site from loss of data because of server crashes, hacks, dodgy updates, or bad plugins.<br />
+		If selected Backuply plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/backuply/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'speedycache' => 
+    array (
+      'tag' => '<input type="checkbox" class="soft-left-checkbox" name="speedycache" id="speedycache" value="off"  >',
+      'head' => 'Improve Page Speed (SpeedyCache)',
+      'exp' => 'Speed up your WordPress website and improve page ranking !',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'loginizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="loginizer" id="loginizer" value="on"  >',
+      'head' => 'Limit Login Attempts (Loginizer)',
+      'exp' => 'Protect your site against bruteforce attacks by limiting the number of login attempts for your WordPress installation.<br />
+		If selected Loginizer plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/loginizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'gosmtp' => 
+    array (
+      'tag' => '<input type="checkbox" name="gosmtp" id="gosmtp" class="soft-left-checkbox" value="on"  >',
+      'head' => 'Email with SMTP (GoSMTP)',
+      'exp' => 'GoSMTP send emails from your WordPress site using your preferred SMTP provider like Gmail, Outlook, AWS, Zoho, SMTP.com, Sendinblue, Mailgun, Postmark, Sendgrid, Sparkpost, Sendlayer or any custom SMTP provider.<br />
+		Click <a href="https://wordpress.org/plugins/gosmtp/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'fileorganizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="fileorganizer" id="fileorganizer" class="soft-left-checkbox" value="on"  >',
+      'head' => 'File Manager(FileOrganizer)',
+      'exp' => 'FileOrganizer is a plugin that helps you to manage all files in your WordPress Site. FileOrganizer provides you the ability to edit, delete, upload, download, copy and paste files and folders.<br />
+		Click <a href="https://wordpress.org/plugins/fileorganizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'classic-editor' => 
+    array (
+      'tag' => '<input type="checkbox" name="classic-editor" id="classic-editor" value="off"  >',
+      'head' => 'Classic Editor',
+      'exp' => 'Classic Editor restores the previous WordPress editor and the Edit Post screen and makes it possible to use the plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor.<br />
+		If selected classic-editor plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/classic-editor/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+)
+
+[epiz_33829184] [2023-03-19 05:19:01] [software] Software Info : array (
+  'overview' => '<img src="logo.png" style="float:right;" alt="" /><font size="5" color="#182e7a">WordPress</font> is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.<br /><br />
+		The core software is built by hundreds of community volunteers, and when you\'re ready for more there are thousands of plugins and themes available to transform your site into almost anything you can imagine.
+		<br /><br />Over 60 million people have chosen WordPress to power the place on the web they call "home" we\'d love you to join the family.
+		<br /><br />
+		WordPress is an <a href="http://opensource.org/" target="_blank">Open Source</a> project, which means there are hundreds of people all over the world working on it. (More than most commercial platforms.) It also means you are free to use it for anything from your recipe site to a Fortune 500 web site without paying anyone a license fee.',
+  'install' => '',
+  'features' => 'WordPress powers more than 23% of the web - a figure that rises every day. Everything from simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with WordPress.<br /><br />
+WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. This makes it flexible while still being easy-to-use.<br /><br />
+The following is a list of some of the features that come as standard with WordPress; however, there are literally thousands of plugins that extend what WordPress does, so the actual functionality is nearly limitless. You are also free to do whatever you like with the WordPress code, extend it or modify in any way or use it for commercial projects without any licensing fees. That is the beauty of free software, free refers not only to price but also the freedom to have complete control over it.<br /><br />
+<ul><li><strong>Simplicity</strong>
+Simplicity makes it possible for you to get online and get publishing, quickly. Nothing should get in the way of you getting your website up and your content out there. WordPress is built to make that happen.
+</li>
+<li><strong>Flexibility</strong>
+With WordPress, you can create any type of website you want: a personal blog or website, a photoblog, a business website, a professional portfolio, a government website, a magazine or news website, an online community, even a network of websites. You can make your website beautiful with themes, and extend it with plugins. You can even build your very own application.
+</li>
+<li><strong>Publish with Ease</strong>
+If you\'ve ever created a document, you\'re already a whizz at creating content with WordPress. You can create Posts and Pages, format them easily, insert media, and with the click of a button your content is live and on the web.
+</li>
+<li><strong>Publishing Tools</strong>
+WordPress makes it easy for you to manage your content. Create drafts, schedule publication, and look at your post revisions. Make your content public or private, and secure posts and pages with a password.
+</li>
+<li><strong>User Management</strong>
+Not everyone requires the same access to your website. Administrators manage the site, editors work with content, authors and contributors write that content, and subscribers have a profile that they can manage. This lets you have a variety of contributors to your website, and let others simply be part of your community.
+</li>
+<li><strong>Media Management</strong>
+They say a picture says a thousand words, which is why it\'s important for you to be able to quickly and easily upload images and media to WordPress. Drag and drop your media into the uploader to add it to your website. Add alt text, captions, and titles, and insert images and galleries into your content. We\'ve even added a few image editing tools you can have fun with.
+</li>
+<li><strong>Full Standards Compliance</strong>
+Every piece of WordPress generated code is in full compliance with the standards set by the W3C. This means that your website will work in today\'s browser, while maintaining forward compatibility with the next generation of browser. Your website is a beautiful thing, now and in the future.
+</li>
+<li><strong>Easy Theme System</strong>
+WordPress comes bundled with two default themes, but if they aren\'t for you there\'s a theme directory with thousands of themes for you to create a beautiful website. None of those to your taste? Upload your own theme with the click of a button. It only takes a few seconds for you to give your website a complete makeover.
+</li>
+<li><strong>Extend with Plugins</strong>
+WordPress comes packed full of features for every user, for every other feature there\'s a plugin directory with thousands of plugins. Add complex galleries, social networking, forums, social media widgets, spam protection, calendars, fine-tune controls for search engine optimization, and forms.
+</li>
+<li><strong>Built-in Comments</strong>
+Your blog is your home, and comments provide a space for your friends and followers to engage with your content. WordPress\'s comment tools give you everything you need to be a forum for discussion and to moderate that discussion.
+</li>
+<li><strong>Search Engine Optimized</strong>
+WordPress is optimized for search engines right out of the box. For more fine-grained SEO control, there are plenty of <a href="https://wordpress.org/plugins/search.php?q=SEO">SEO plugins</a> to take care of that for you.
+</li>
+<li><strong>Multilingual</strong>
+WordPress is available in more than 70 languages. If you or the person you\'re building the website for would prefer to use WordPress in a language other than English, <a href="https://codex.wordpress.org/WordPress_in_Your_Language">that\'s easy to do</a>.
+</li>
+<li><strong>Own Your Data</strong>
+Hosted services come and go. If you\'ve ever used a service that disappeared, you know how traumatic that can be. If you\'ve ever seen adverts appear on your website, you\'ve probably been pretty annoyed. Using WordPress means no one has access to your content. Own your data, all of it - your website, your content, your data.
+</li>
+<li><strong>Freedom</strong>
+WordPress is licensed under the GPL which was created to protect your freedoms. You are free to use WordPress in any way you choose: install it, use it, modify it, distribute it. Software freedom is the foundation that WordPress is built on.
+</li>
+<li><strong>Community</strong>
+As the most popular open source CMS on the web, WordPress has a vibrant and supportive community. Ask a question on the support forums and get help from a volunteer, attend a WordCamp or Meetup to learn more about WordPress, read blogs posts and tutorials about WordPress. Community is at the heart of WordPress, making it what it is today.
+</li>
+<li><strong>Contribute</strong>
+You can be WordPress too! Help to build WordPress, answer questions on the support forums, write documentation, translate WordPress into your language, speak at a WordCamp, write about WordPress on your blog. Whatever your skill, we\'d love to have you!
+</li>
+</ul>',
+  'demo' => 'http://www.softaculous.com/demos/WordPress',
+  'ratings' => 'http://www.softaculous.com/softwares/blogs/WordPress',
+  'support' => 'http://www.wordpress.org/',
+  'release_date' => '15-11-2022',
+  'mod' => '222',
+  'mod_files' => '1',
+  'import' => true,
+)
+
+[epiz_33829184] [2023-03-19 05:19:01] [software] Finished calling pre install hooks
+
+[epiz_33829184] [2023-03-19 05:19:01] [software] Task Key : g2vaH1loRSQCxmTyiTqfWeBLq0ukjnPs
+
+[epiz_33829184] [2023-03-19 05:19:03] [software] http://kurisaw.42web.io Completed DB Details Checks : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w309',
+  'softdbuser' => '33829184_3',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => 'SA[Op2.52h',
+)
+
+[epiz_33829184] [2023-03-19 05:19:03] [software] http://kurisaw.42web.io Processed Posted Settings : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w309',
+  'softdbuser' => '33829184_3',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => 'SA[Op2.52h',
+  'dbprefix' => 'wpra_',
+  'site_name' => 'My Blog',
+  'site_desc' => 'My WordPress Blog',
+  'multisite' => '',
+  'disable_wp_cron' => '',
+  'admin_username' => 'kurisaW',
+  'admin_pass' => '$P$B5WhJ2XD5wr9SOKTT4QhknjaXGCL1K0',
+  'admin_email' => '2053731441@qq.com',
+  'language' => 'zh_CN',
+  'backuply' => '',
+  'speedycache' => '',
+  'loginizer' => '',
+  'gosmtp' => '',
+  'fileorganizer' => '',
+  'classic-editor' => '',
+)
+
+[epiz_33829184] [2023-03-19 05:19:03] [software] http://kurisaw.42web.io Finished loading __post_settings
+
+[epiz_33829184] [2023-03-19 05:19:03] [software] http://kurisaw.42web.io Completed Requirement Checks
+
+[epiz_33829184] [2023-03-19 05:19:03] [software] http://kurisaw.42web.io Creating DB : epiz_33829184_w309 and DB User : 33829184_3
+
+[epiz_33829184] [2023-03-19 05:19:08] [software] http://kurisaw.42web.io Unzipped Package successfully
+
+[epiz_33829184] [2023-03-19 05:19:08] [software] http://kurisaw.42web.io Calling Software installer
+
+[epiz_33829184] [2023-03-19 05:19:20] [software] http://kurisaw.42web.io Finished Software installer
+
+[epiz_33829184] [2023-03-19 05:19:20] [software] http://kurisaw.42web.io Modifying Scripts footer links
+
+[epiz_33829184] [2023-03-19 05:19:20] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentythree/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 05:19:20] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentytwo/inc/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 05:19:20] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentyone/footer.php
+
+[epiz_33829184] [2023-03-19 05:19:20] [software] http://kurisaw.42web.io Saving installation details
+
+[epiz_33829184] [2023-03-19 05:19:20] [software] http://kurisaw.42web.io Finished Install
+
+[epiz_33829184] [2023-03-19 05:22:34] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] Installation Settings : array (
+  'sid' => 26,
+  'ver' => '6.1.1',
+  'itime' => 1679217560,
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'adminurl' => 'wp-admin/',
+  'disable_wp_cron' => '',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w309',
+  'softdbuser' => '33829184_3',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => 'SA[Op2.52h',
+  'dbprefix' => 'wpra_',
+  'dbcreated' => true,
+  'fileindex' => 
+  array (
+    0 => 'index.php',
+    1 => 'license.txt',
+    2 => 'readme.html',
+    3 => 'wp-activate.php',
+    4 => 'wp-admin',
+    5 => 'wp-blog-header.php',
+    6 => 'wp-comments-post.php',
+    7 => 'wp-config-sample.php',
+    8 => 'wp-content',
+    9 => 'wp-cron.php',
+    10 => 'wp-includes',
+    11 => 'wp-links-opml.php',
+    12 => 'wp-load.php',
+    13 => 'wp-login.php',
+    14 => 'wp-mail.php',
+    15 => 'wp-settings.php',
+    16 => 'wp-signup.php',
+    17 => 'wp-trackback.php',
+    18 => 'xmlrpc.php',
+    19 => '.htaccess',
+    20 => 'wp-config.php',
+  ),
+  'site_name' => 'KurisaW-Collaborative',
+  'insid' => '26_26509',
+  'script_name' => 'WordPress',
+  'display_softdbpass' => 'SA[Op2.52h',
+)
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] Software Details : array (
+  'name' => 'WordPress',
+  'softname' => 'wp',
+  'desc' => 'WordPress is a state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.',
+  'ins' => 1,
+  'cat' => 'blogs',
+  'type' => 'php',
+  'ver' => '6.0',
+  'pre_down' => 1,
+  'path' => '/var/softaculous/wp',
+  'has_theme' => 'WordPress',
+  'update_plugins' => 1,
+  'update_themes' => 1,
+  'has_minor' => 1,
+)
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] Software Settings : array (
+  'Admin Account' => 
+  array (
+    'admin_username' => 
+    array (
+      'tag' => '<input type="text" name="admin_username" id="admin_username" size="30" value="">',
+      'head' => 'Admin Username',
+      'exp' => 'The username/email for which you want to change the password. Leave blank if you do not want to reset the password',
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => 1,
+    ),
+    'admin_pass' => 
+    array (
+      'tag' => '<input type="text" autocomplete="off" name="admin_pass" id="admin_pass" size="30" value="">',
+      'head' => 'Admin Password',
+      'exp' => 'New password. Leave blank if you do not want to reset the password',
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => 1,
+    ),
+    'signon_username' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="text" name="signon_username" id="signon_username" size="30" value="" save="true">',
+      'head' => 'Sign on Username',
+      'exp' => 'If set then this user will be used for sign on',
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+    ),
+  ),
+  'Install Plugin(s)' => 
+  array (
+    'backuply' => 
+    array (
+      'tag' => '<input type="checkbox" name="backuply" id="backuply" value="on" class="soft-left-checkbox" style="float: left;margin-right: 8px;"  >',
+      'head' => 'Backups (Backuply)',
+      'exp' => 'Backup your WordPress website, and save your site from loss of data because of server crashes, hacks, dodgy updates, or bad plugins.<br />
+		If selected Backuply plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/backuply/" target="_blank">here</a> to visit plugin site.<br />If this plugin is already installed, no action shall be performed',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'loginizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="loginizer" id="loginizer" value="on"  >',
+      'head' => 'Limit Login Attempts (Loginizer)',
+      'exp' => 'Protect your site against bruteforce attacks by limiting the number of login attempts for your WordPress installation.<br />
+		If selected Loginizer plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/loginizer/" target="_blank">here</a> to visit plugin site.<br />If this plugin is already installed, no action shall be performed',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'gosmtp' => 
+    array (
+      'tag' => '<input type="checkbox" name="gosmtp" id="gosmtp" class="soft-left-checkbox" value="on"  >',
+      'head' => 'Email with SMTP (GoSMTP)',
+      'exp' => 'GoSMTP send emails from your WordPress site using your preferred SMTP provider like Gmail, Outlook, AWS, Zoho, SMTP.com, Sendinblue, Mailgun, Postmark, Sendgrid, Sparkpost, Sendlayer or any custom SMTP provider.<br />
+		Click <a href="https://wordpress.org/plugins/gosmtp/" target="_blank">here</a> to visit plugin site.<br />If this plugin is already installed, no action shall be performed',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'fileorganizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="fileorganizer" id="fileorganizer" class="soft-left-checkbox" value="on"  >',
+      'head' => 'File Manager(FileOrganizer)',
+      'exp' => 'FileOrganizer is a plugin that helps you to manage all files in your WordPress Site. FileOrganizer provides you the ability to edit, delete, upload, download, copy and paste files and folders.<br />
+		Click <a href="https://wordpress.org/plugins/fileorganizer/" target="_blank">here</a> to visit plugin site.<br />If this plugin is already installed, no action shall be performed',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'classic-editor' => 
+    array (
+      'tag' => '<input type="checkbox" name="classic-editor" id="classic-editor" value="off"  >',
+      'head' => 'Classic Editor',
+      'exp' => 'Classic Editor restores the previous WordPress editor and the Edit Post screen and makes it possible to use the plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor.<br />
+		If selected classic-editor plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/classic-editor/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+)
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io Installation Directory Verified
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io WWW Directory Verified
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io WWWURL Verified
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io Directory and URL Checks Performed
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io Database Checks Performed
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io Updated fileindex
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io Processed Posted Settings : array (
+  'sid' => 26,
+  'ver' => '6.1.1',
+  'itime' => 1679217560,
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'adminurl' => 'wp-admin/',
+  'disable_wp_cron' => '',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w309',
+  'softdbuser' => '33829184_3',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => 'SA[Op2.52h',
+  'dbprefix' => 'wpra_',
+  'dbcreated' => true,
+  'fileindex' => 
+  array (
+    0 => 'index.php',
+    1 => 'license.txt',
+    2 => 'readme.html',
+    3 => 'wp-activate.php',
+    4 => 'wp-admin',
+    5 => 'wp-blog-header.php',
+    6 => 'wp-comments-post.php',
+    7 => 'wp-config-sample.php',
+    8 => 'wp-content',
+    9 => 'wp-cron.php',
+    10 => 'wp-includes',
+    11 => 'wp-links-opml.php',
+    12 => 'wp-load.php',
+    13 => 'wp-login.php',
+    14 => 'wp-mail.php',
+    15 => 'wp-settings.php',
+    16 => 'wp-signup.php',
+    17 => 'wp-trackback.php',
+    18 => 'xmlrpc.php',
+    19 => '.htaccess',
+    20 => 'wp-config.php',
+  ),
+  'site_name' => 'KurisaW-Collaborative',
+  'insid' => '26_26509',
+  'script_name' => 'WordPress',
+  'display_softdbpass' => 'SA[Op2.52h',
+  'admin_username' => '',
+  'admin_pass' => '',
+  'signon_username' => '',
+  'backuply' => '',
+  'loginizer' => '',
+  'gosmtp' => '',
+  'fileorganizer' => '',
+  'classic-editor' => '',
+)
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io Finished loading pre settings function
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io Finished software edit functionality
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io Updated Values : array (
+  'sid' => 26,
+  'ver' => '6.1.1',
+  'itime' => 1679217560,
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'adminurl' => 'wp-admin/',
+  'disable_wp_cron' => '',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w309',
+  'softdbuser' => '33829184_3',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => 'SA[Op2.52h',
+  'dbprefix' => 'wpra_',
+  'dbcreated' => true,
+  'fileindex' => 
+  array (
+    0 => 'index.php',
+    1 => 'license.txt',
+    2 => 'readme.html',
+    3 => 'wp-activate.php',
+    4 => 'wp-admin',
+    5 => 'wp-blog-header.php',
+    6 => 'wp-comments-post.php',
+    7 => 'wp-config-sample.php',
+    8 => 'wp-content',
+    9 => 'wp-cron.php',
+    10 => 'wp-includes',
+    11 => 'wp-links-opml.php',
+    12 => 'wp-load.php',
+    13 => 'wp-login.php',
+    14 => 'wp-mail.php',
+    15 => 'wp-settings.php',
+    16 => 'wp-signup.php',
+    17 => 'wp-trackback.php',
+    18 => 'xmlrpc.php',
+    19 => '.htaccess',
+    20 => 'wp-config.php',
+  ),
+  'site_name' => 'KurisaW-Collaborative',
+  'insid' => '26_26509',
+  'script_name' => 'WordPress',
+  'display_softdbpass' => 'SA[Op2.52h',
+  'disable_notify_update' => 0,
+)
+
+[epiz_33829184] [2023-03-19 05:25:00] [edit] http://kurisaw.42web.io Saved Installation details
+
+[epiz_33829184] [2023-03-19 05:28:22] [remove] http://kurisaw.42web.io Finished calling pre remove hook
+
+[epiz_33829184] [2023-03-19 05:28:22] [remove] http://kurisaw.42web.io Task Key : OGLO9aaDDvo86asGkI5REaoDjZoYtpAY
+
+[epiz_33829184] [2023-03-19 05:28:22] [remove] http://kurisaw.42web.io Database and Database User Removed
+
+[epiz_33829184] [2023-03-19 05:28:25] [remove] http://kurisaw.42web.io Directory Removed
+
+[epiz_33829184] [2023-03-19 05:28:25] [remove] http://kurisaw.42web.io Finished Remove
+
+[epiz_33829184] [2023-03-19 05:28:33] [remove] Incorrect INSID : 26_26509
+
+[epiz_33829184] [2023-03-19 05:29:06] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 05:29:40] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] Software Details : array (
+  'name' => 'WordPress',
+  'softname' => 'wp',
+  'desc' => 'WordPress is a state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.',
+  'ins' => 1,
+  'cat' => 'blogs',
+  'type' => 'php',
+  'ver' => '6.1.1',
+  'pre_down' => 1,
+  'path' => '/var/softaculous/wp',
+  'has_theme' => 'WordPress',
+  'update_plugins' => 1,
+  'update_themes' => 1,
+  'verify_dom' => 0,
+  'has_minor' => 1,
+  'idn_dir' => 1,
+  'spacereq' => '66464155',
+  'branch' => 
+  array (
+    26 => 
+    array (
+      'min' => '',
+      'ver' => '6.1.1',
+    ),
+    702 => 
+    array (
+      'min' => '',
+      'ver' => '5.9.5',
+    ),
+    694 => 
+    array (
+      'min' => '',
+      'ver' => '5.8.6',
+    ),
+    684 => 
+    array (
+      'min' => '',
+      'ver' => '5.7.8',
+    ),
+    678 => 
+    array (
+      'min' => '',
+      'ver' => '5.6.10',
+    ),
+    672 => 
+    array (
+      'min' => '',
+      'ver' => '5.5.11',
+    ),
+    666 => 
+    array (
+      'min' => '',
+      'ver' => '5.4.12',
+    ),
+    660 => 
+    array (
+      'min' => '',
+      'ver' => '5.3.14',
+    ),
+    656 => 
+    array (
+      'min' => '',
+      'ver' => '5.2.17',
+    ),
+    650 => 
+    array (
+      'min' => '',
+      'ver' => '5.1.15',
+    ),
+    648 => 
+    array (
+      'min' => '',
+      'ver' => '5.0.18',
+    ),
+    646 => 
+    array (
+      'min' => '',
+      'ver' => '4.9.22',
+    ),
+  ),
+  'adminurl' => 'wp-admin/',
+)
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] Software Settings : array (
+  'Database Settings' => 
+  array (
+    'dbprefix' => 
+    array (
+      'tag' => '<input type="text" name="dbprefix" id="dbprefix" size="30" value="wp2o_">',
+      'head' => 'Table Prefix',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'wp_',
+    ),
+  ),
+  'Site Settings' => 
+  array (
+    'site_name' => 
+    array (
+      'tag' => '<input type="text" name="site_name" id="site_name" size="30" value="KurisaW-Collaborative">',
+      'head' => 'Site Name',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 'My Blog',
+    ),
+    'site_desc' => 
+    array (
+      'tag' => '<input type="text" name="site_desc" id="site_desc" size="30" value="kurisaW&#039;s personal collaboration">',
+      'head' => 'Site Description',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'My WordPress Blog',
+    ),
+    'multisite' => 
+    array (
+      'tag' => '<input type="checkbox" name="multisite" id="multisite" value="off"  >',
+      'head' => 'Enable Multisite (WPMU)',
+      'exp' => 'This feature will Enable Multisite option for your WordPress blog. <br />Your server must support Apache mod_rewrite to use this feature.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'disable_wp_cron' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="checkbox" name="disable_wp_cron" id="disable_wp_cron" value="off" save="true"  >',
+      'head' => 'Disable WordPress Cron',
+      'exp' => 'If selected, WordPress cron will be disabled and a cron job will be added in your control panel to be executed twice an hour.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+  'Admin Account' => 
+  array (
+    'admin_username' => 
+    array (
+      'tag' => '<input type="text" name="admin_username" id="admin_username" size="30" value="kurisaW">',
+      'head' => 'Admin Username',
+      'exp' => NULL,
+      'handle' => '__admin_username',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+    'admin_pass' => 
+    array (
+      'tag' => '<input type="text" autocomplete="off" name="admin_pass" id="admin_pass" size="30" value="wyq@2624192634..">',
+      'head' => 'Admin Password',
+      'exp' => NULL,
+      'handle' => '__ad_pass',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'pass',
+    ),
+    'admin_email' => 
+    array (
+      'tag' => '<input type="text" name="admin_email" id="admin_email" size="30" value="2053731441@qq.com" softmail="true">',
+      'head' => 'Admin Email',
+      'exp' => NULL,
+      'handle' => '__email_address',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+  ),
+  'Choose Language' => 
+  array (
+    'language' => 
+    array (
+      'tag' => '<select name="language" id="language">
+					<option value="en">English</option>
+					<option value="ar">Arabic</option>
+					<option value="sq">Albanian</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca">Catalan</option>
+					<option value="zh_CN" selected="selected">Chinese - Simplified</option>
+					<option value="zh_TW">Chinese - Traditional</option>
+					<option value="hr">Croatian</option>	
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="fi">Finnish</option>
+					<option value="fr_FR">French</option>
+					<option value="de_DE">German</option>
+					<option value="el">Greek</option>
+					<option value="he_IL">Hebrew</option>
+					<option value="hu_HU">Hungarian</option>	
+					<option value="id_ID">Indonesian</option>
+					<option value="it_IT">Italian</option>	
+					<option value="ja">Japanese</option>
+					<option value="ko_KR">Korean</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="fa_IR">Persian</option>
+					<option value="pl_PL">Polish</option>	
+					<option value="pt_PT">Portuguese</option>
+					<option value="pt_BR">Portuguese - BR</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sl_SI">Slovenian</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="es_ES">Spanish</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="th">Thai</option>
+					<option value="tr_TR">Turkish</option>
+					<option value="uk">Ukrainian</option>
+					<option value="vi">Vietnamese</option>
+					<option value="zh_HK">Chinese - Hong Kong</option>
+				</select>',
+      'head' => 'Select Language',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 
+      array (
+        0 => 'en',
+        1 => 'ar',
+        2 => 'sq',
+        3 => 'bg_BG',
+        4 => 'ca',
+        5 => 'zh_CN',
+        6 => 'zh_TW',
+        7 => 'hr',
+        8 => 'cs_CZ',
+        9 => 'da_DK',
+        10 => 'nl_NL',
+        11 => 'fi',
+        12 => 'fr_FR',
+        13 => 'de_DE',
+        14 => 'el',
+        15 => 'he_IL',
+        16 => 'hu_HU',
+        17 => 'id_ID',
+        18 => 'it_IT',
+        19 => 'ja',
+        20 => 'ko_KR',
+        21 => 'nb_NO',
+        22 => 'fa_IR',
+        23 => 'pl_PL',
+        24 => 'pt_PT',
+        25 => 'pt_BR',
+        26 => 'ro_RO',
+        27 => 'ru_RU',
+        28 => 'sl_SI',
+        29 => 'sk_SK',
+        30 => 'es_ES',
+        31 => 'sv_SE',
+        32 => 'th',
+        33 => 'tr_TR',
+        34 => 'uk',
+        35 => 'vi',
+        36 => 'zh_HK',
+      ),
+    ),
+  ),
+  'Select Plugin(s)' => 
+  array (
+    'backuply' => 
+    array (
+      'tag' => '<input type="checkbox" name="backuply" id="backuply" value="on" class="soft-left-checkbox" style="float: left;margin-right: 8px;" checked="checked" >',
+      'head' => 'Backups (Backuply)',
+      'exp' => 'Backup your WordPress website, and save your site from loss of data because of server crashes, hacks, dodgy updates, or bad plugins.<br />
+		If selected Backuply plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/backuply/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'speedycache' => 
+    array (
+      'tag' => '<input type="checkbox" class="soft-left-checkbox" name="speedycache" id="speedycache" value="off" checked="checked" >',
+      'head' => 'Improve Page Speed (SpeedyCache)',
+      'exp' => 'Speed up your WordPress website and improve page ranking !',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'loginizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="loginizer" id="loginizer" value="on" checked="checked" >',
+      'head' => 'Limit Login Attempts (Loginizer)',
+      'exp' => 'Protect your site against bruteforce attacks by limiting the number of login attempts for your WordPress installation.<br />
+		If selected Loginizer plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/loginizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'gosmtp' => 
+    array (
+      'tag' => '<input type="checkbox" name="gosmtp" id="gosmtp" class="soft-left-checkbox" value="on"  >',
+      'head' => 'Email with SMTP (GoSMTP)',
+      'exp' => 'GoSMTP send emails from your WordPress site using your preferred SMTP provider like Gmail, Outlook, AWS, Zoho, SMTP.com, Sendinblue, Mailgun, Postmark, Sendgrid, Sparkpost, Sendlayer or any custom SMTP provider.<br />
+		Click <a href="https://wordpress.org/plugins/gosmtp/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'fileorganizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="fileorganizer" id="fileorganizer" class="soft-left-checkbox" value="on" checked="checked" >',
+      'head' => 'File Manager(FileOrganizer)',
+      'exp' => 'FileOrganizer is a plugin that helps you to manage all files in your WordPress Site. FileOrganizer provides you the ability to edit, delete, upload, download, copy and paste files and folders.<br />
+		Click <a href="https://wordpress.org/plugins/fileorganizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'classic-editor' => 
+    array (
+      'tag' => '<input type="checkbox" name="classic-editor" id="classic-editor" value="off" checked="checked" >',
+      'head' => 'Classic Editor',
+      'exp' => 'Classic Editor restores the previous WordPress editor and the Edit Post screen and makes it possible to use the plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor.<br />
+		If selected classic-editor plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/classic-editor/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+)
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] Software Info : array (
+  'overview' => '<img src="logo.png" style="float:right;" alt="" /><font size="5" color="#182e7a">WordPress</font> is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.<br /><br />
+		The core software is built by hundreds of community volunteers, and when you\'re ready for more there are thousands of plugins and themes available to transform your site into almost anything you can imagine.
+		<br /><br />Over 60 million people have chosen WordPress to power the place on the web they call "home" we\'d love you to join the family.
+		<br /><br />
+		WordPress is an <a href="http://opensource.org/" target="_blank">Open Source</a> project, which means there are hundreds of people all over the world working on it. (More than most commercial platforms.) It also means you are free to use it for anything from your recipe site to a Fortune 500 web site without paying anyone a license fee.',
+  'install' => '',
+  'features' => 'WordPress powers more than 23% of the web - a figure that rises every day. Everything from simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with WordPress.<br /><br />
+WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. This makes it flexible while still being easy-to-use.<br /><br />
+The following is a list of some of the features that come as standard with WordPress; however, there are literally thousands of plugins that extend what WordPress does, so the actual functionality is nearly limitless. You are also free to do whatever you like with the WordPress code, extend it or modify in any way or use it for commercial projects without any licensing fees. That is the beauty of free software, free refers not only to price but also the freedom to have complete control over it.<br /><br />
+<ul><li><strong>Simplicity</strong>
+Simplicity makes it possible for you to get online and get publishing, quickly. Nothing should get in the way of you getting your website up and your content out there. WordPress is built to make that happen.
+</li>
+<li><strong>Flexibility</strong>
+With WordPress, you can create any type of website you want: a personal blog or website, a photoblog, a business website, a professional portfolio, a government website, a magazine or news website, an online community, even a network of websites. You can make your website beautiful with themes, and extend it with plugins. You can even build your very own application.
+</li>
+<li><strong>Publish with Ease</strong>
+If you\'ve ever created a document, you\'re already a whizz at creating content with WordPress. You can create Posts and Pages, format them easily, insert media, and with the click of a button your content is live and on the web.
+</li>
+<li><strong>Publishing Tools</strong>
+WordPress makes it easy for you to manage your content. Create drafts, schedule publication, and look at your post revisions. Make your content public or private, and secure posts and pages with a password.
+</li>
+<li><strong>User Management</strong>
+Not everyone requires the same access to your website. Administrators manage the site, editors work with content, authors and contributors write that content, and subscribers have a profile that they can manage. This lets you have a variety of contributors to your website, and let others simply be part of your community.
+</li>
+<li><strong>Media Management</strong>
+They say a picture says a thousand words, which is why it\'s important for you to be able to quickly and easily upload images and media to WordPress. Drag and drop your media into the uploader to add it to your website. Add alt text, captions, and titles, and insert images and galleries into your content. We\'ve even added a few image editing tools you can have fun with.
+</li>
+<li><strong>Full Standards Compliance</strong>
+Every piece of WordPress generated code is in full compliance with the standards set by the W3C. This means that your website will work in today\'s browser, while maintaining forward compatibility with the next generation of browser. Your website is a beautiful thing, now and in the future.
+</li>
+<li><strong>Easy Theme System</strong>
+WordPress comes bundled with two default themes, but if they aren\'t for you there\'s a theme directory with thousands of themes for you to create a beautiful website. None of those to your taste? Upload your own theme with the click of a button. It only takes a few seconds for you to give your website a complete makeover.
+</li>
+<li><strong>Extend with Plugins</strong>
+WordPress comes packed full of features for every user, for every other feature there\'s a plugin directory with thousands of plugins. Add complex galleries, social networking, forums, social media widgets, spam protection, calendars, fine-tune controls for search engine optimization, and forms.
+</li>
+<li><strong>Built-in Comments</strong>
+Your blog is your home, and comments provide a space for your friends and followers to engage with your content. WordPress\'s comment tools give you everything you need to be a forum for discussion and to moderate that discussion.
+</li>
+<li><strong>Search Engine Optimized</strong>
+WordPress is optimized for search engines right out of the box. For more fine-grained SEO control, there are plenty of <a href="https://wordpress.org/plugins/search.php?q=SEO">SEO plugins</a> to take care of that for you.
+</li>
+<li><strong>Multilingual</strong>
+WordPress is available in more than 70 languages. If you or the person you\'re building the website for would prefer to use WordPress in a language other than English, <a href="https://codex.wordpress.org/WordPress_in_Your_Language">that\'s easy to do</a>.
+</li>
+<li><strong>Own Your Data</strong>
+Hosted services come and go. If you\'ve ever used a service that disappeared, you know how traumatic that can be. If you\'ve ever seen adverts appear on your website, you\'ve probably been pretty annoyed. Using WordPress means no one has access to your content. Own your data, all of it - your website, your content, your data.
+</li>
+<li><strong>Freedom</strong>
+WordPress is licensed under the GPL which was created to protect your freedoms. You are free to use WordPress in any way you choose: install it, use it, modify it, distribute it. Software freedom is the foundation that WordPress is built on.
+</li>
+<li><strong>Community</strong>
+As the most popular open source CMS on the web, WordPress has a vibrant and supportive community. Ask a question on the support forums and get help from a volunteer, attend a WordCamp or Meetup to learn more about WordPress, read blogs posts and tutorials about WordPress. Community is at the heart of WordPress, making it what it is today.
+</li>
+<li><strong>Contribute</strong>
+You can be WordPress too! Help to build WordPress, answer questions on the support forums, write documentation, translate WordPress into your language, speak at a WordCamp, write about WordPress on your blog. Whatever your skill, we\'d love to have you!
+</li>
+</ul>',
+  'demo' => 'http://www.softaculous.com/demos/WordPress',
+  'ratings' => 'http://www.softaculous.com/softwares/blogs/WordPress',
+  'support' => 'http://www.wordpress.org/',
+  'release_date' => '15-11-2022',
+  'mod' => '222',
+  'mod_files' => '1',
+  'import' => true,
+)
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] Finished calling pre install hooks
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] Task Key : 7oT6FupEjixvnInKl1tAXZrWFf7YH1QP
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] http://kurisaw.42web.io Completed DB Details Checks : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_wp17',
+  'softdbuser' => '33829184_4',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => '--7pR8mS6p',
+)
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] http://kurisaw.42web.io Processed Posted Settings : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_wp17',
+  'softdbuser' => '33829184_4',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => '--7pR8mS6p',
+  'dbprefix' => 'wp2o_',
+  'site_name' => 'KurisaW-Collaborative',
+  'site_desc' => 'kurisaW&#039;s personal collaboration',
+  'multisite' => '',
+  'disable_wp_cron' => '',
+  'admin_username' => 'kurisaW',
+  'admin_pass' => '$P$BEqMbdH6IcFHZXYawE0vhDWqcpshty1',
+  'admin_email' => '2053731441@qq.com',
+  'language' => 'zh_CN',
+  'backuply' => 'on',
+  'speedycache' => 'off',
+  'loginizer' => 'on',
+  'gosmtp' => '',
+  'fileorganizer' => 'on',
+  'classic-editor' => 'off',
+)
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] http://kurisaw.42web.io Finished loading __post_settings
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] http://kurisaw.42web.io Completed Requirement Checks
+
+[epiz_33829184] [2023-03-19 05:31:54] [software] http://kurisaw.42web.io Creating DB : epiz_33829184_wp17 and DB User : 33829184_4
+
+[epiz_33829184] [2023-03-19 05:32:01] [software] http://kurisaw.42web.io Unzipped Package successfully
+
+[epiz_33829184] [2023-03-19 05:32:01] [software] http://kurisaw.42web.io Calling Software installer
+
+[epiz_33829184] [2023-03-19 05:32:18] [software] http://kurisaw.42web.io Finished Software installer
+
+[epiz_33829184] [2023-03-19 05:32:18] [software] http://kurisaw.42web.io Modifying Scripts footer links
+
+[epiz_33829184] [2023-03-19 05:32:18] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentythree/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 05:32:18] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentytwo/inc/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 05:32:18] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentyone/footer.php
+
+[epiz_33829184] [2023-03-19 05:32:18] [software] http://kurisaw.42web.io Saving installation details
+
+[epiz_33829184] [2023-03-19 05:32:18] [software] http://kurisaw.42web.io Finished Install
+
+[epiz_33829184] [2023-03-19 05:36:33] [remove] http://kurisaw.42web.io Finished calling pre remove hook
+
+[epiz_33829184] [2023-03-19 05:36:33] [remove] http://kurisaw.42web.io Task Key : kic1h27uGmR137kny3afOL69bPcu5XjF
+
+[epiz_33829184] [2023-03-19 05:36:33] [remove] http://kurisaw.42web.io Database and Database User Removed
+
+[epiz_33829184] [2023-03-19 05:36:36] [remove] http://kurisaw.42web.io Directory Removed
+
+[epiz_33829184] [2023-03-19 05:36:36] [remove] http://kurisaw.42web.io Finished Remove
+
+[epiz_33829184] [2023-03-19 05:36:56] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 05:37:13] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] Software Details : array (
+  'name' => 'WordPress',
+  'softname' => 'wp',
+  'desc' => 'WordPress is a state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.',
+  'ins' => 1,
+  'cat' => 'blogs',
+  'type' => 'php',
+  'ver' => '6.1.1',
+  'pre_down' => 1,
+  'path' => '/var/softaculous/wp',
+  'has_theme' => 'WordPress',
+  'update_plugins' => 1,
+  'update_themes' => 1,
+  'verify_dom' => 0,
+  'has_minor' => 1,
+  'idn_dir' => 1,
+  'spacereq' => '66464155',
+  'branch' => 
+  array (
+    26 => 
+    array (
+      'min' => '',
+      'ver' => '6.1.1',
+    ),
+    702 => 
+    array (
+      'min' => '',
+      'ver' => '5.9.5',
+    ),
+    694 => 
+    array (
+      'min' => '',
+      'ver' => '5.8.6',
+    ),
+    684 => 
+    array (
+      'min' => '',
+      'ver' => '5.7.8',
+    ),
+    678 => 
+    array (
+      'min' => '',
+      'ver' => '5.6.10',
+    ),
+    672 => 
+    array (
+      'min' => '',
+      'ver' => '5.5.11',
+    ),
+    666 => 
+    array (
+      'min' => '',
+      'ver' => '5.4.12',
+    ),
+    660 => 
+    array (
+      'min' => '',
+      'ver' => '5.3.14',
+    ),
+    656 => 
+    array (
+      'min' => '',
+      'ver' => '5.2.17',
+    ),
+    650 => 
+    array (
+      'min' => '',
+      'ver' => '5.1.15',
+    ),
+    648 => 
+    array (
+      'min' => '',
+      'ver' => '5.0.18',
+    ),
+    646 => 
+    array (
+      'min' => '',
+      'ver' => '4.9.22',
+    ),
+  ),
+  'adminurl' => 'wp-admin/',
+)
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] Software Settings : array (
+  'Database Settings' => 
+  array (
+    'dbprefix' => 
+    array (
+      'tag' => '<input type="text" name="dbprefix" id="dbprefix" size="30" value="wplogb_">',
+      'head' => 'Table Prefix',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'wp_',
+    ),
+  ),
+  'Site Settings' => 
+  array (
+    'site_name' => 
+    array (
+      'tag' => '<input type="text" name="site_name" id="site_name" size="30" value="KurisaW-Collaborative">',
+      'head' => 'Site Name',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 'My Blog',
+    ),
+    'site_desc' => 
+    array (
+      'tag' => '<input type="text" name="site_desc" id="site_desc" size="30" value="kurisaW&#039;s personal collaboration">',
+      'head' => 'Site Description',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'My WordPress Blog',
+    ),
+    'multisite' => 
+    array (
+      'tag' => '<input type="checkbox" name="multisite" id="multisite" value="off"  >',
+      'head' => 'Enable Multisite (WPMU)',
+      'exp' => 'This feature will Enable Multisite option for your WordPress blog. <br />Your server must support Apache mod_rewrite to use this feature.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'disable_wp_cron' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="checkbox" name="disable_wp_cron" id="disable_wp_cron" value="off" save="true"  >',
+      'head' => 'Disable WordPress Cron',
+      'exp' => 'If selected, WordPress cron will be disabled and a cron job will be added in your control panel to be executed twice an hour.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+  'Admin Account' => 
+  array (
+    'admin_username' => 
+    array (
+      'tag' => '<input type="text" name="admin_username" id="admin_username" size="30" value="kurisaW">',
+      'head' => 'Admin Username',
+      'exp' => NULL,
+      'handle' => '__admin_username',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+    'admin_pass' => 
+    array (
+      'tag' => '<input type="text" autocomplete="off" name="admin_pass" id="admin_pass" size="30" value="wyq@2624192634..">',
+      'head' => 'Admin Password',
+      'exp' => NULL,
+      'handle' => '__ad_pass',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'pass',
+    ),
+    'admin_email' => 
+    array (
+      'tag' => '<input type="text" name="admin_email" id="admin_email" size="30" value="2053731441@qq.com" softmail="true">',
+      'head' => 'Admin Email',
+      'exp' => NULL,
+      'handle' => '__email_address',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+  ),
+  'Choose Language' => 
+  array (
+    'language' => 
+    array (
+      'tag' => '<select name="language" id="language">
+					<option value="en">English</option>
+					<option value="ar">Arabic</option>
+					<option value="sq">Albanian</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca">Catalan</option>
+					<option value="zh_CN" selected="selected">Chinese - Simplified</option>
+					<option value="zh_TW">Chinese - Traditional</option>
+					<option value="hr">Croatian</option>	
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="fi">Finnish</option>
+					<option value="fr_FR">French</option>
+					<option value="de_DE">German</option>
+					<option value="el">Greek</option>
+					<option value="he_IL">Hebrew</option>
+					<option value="hu_HU">Hungarian</option>	
+					<option value="id_ID">Indonesian</option>
+					<option value="it_IT">Italian</option>	
+					<option value="ja">Japanese</option>
+					<option value="ko_KR">Korean</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="fa_IR">Persian</option>
+					<option value="pl_PL">Polish</option>	
+					<option value="pt_PT">Portuguese</option>
+					<option value="pt_BR">Portuguese - BR</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sl_SI">Slovenian</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="es_ES">Spanish</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="th">Thai</option>
+					<option value="tr_TR">Turkish</option>
+					<option value="uk">Ukrainian</option>
+					<option value="vi">Vietnamese</option>
+					<option value="zh_HK">Chinese - Hong Kong</option>
+				</select>',
+      'head' => 'Select Language',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 
+      array (
+        0 => 'en',
+        1 => 'ar',
+        2 => 'sq',
+        3 => 'bg_BG',
+        4 => 'ca',
+        5 => 'zh_CN',
+        6 => 'zh_TW',
+        7 => 'hr',
+        8 => 'cs_CZ',
+        9 => 'da_DK',
+        10 => 'nl_NL',
+        11 => 'fi',
+        12 => 'fr_FR',
+        13 => 'de_DE',
+        14 => 'el',
+        15 => 'he_IL',
+        16 => 'hu_HU',
+        17 => 'id_ID',
+        18 => 'it_IT',
+        19 => 'ja',
+        20 => 'ko_KR',
+        21 => 'nb_NO',
+        22 => 'fa_IR',
+        23 => 'pl_PL',
+        24 => 'pt_PT',
+        25 => 'pt_BR',
+        26 => 'ro_RO',
+        27 => 'ru_RU',
+        28 => 'sl_SI',
+        29 => 'sk_SK',
+        30 => 'es_ES',
+        31 => 'sv_SE',
+        32 => 'th',
+        33 => 'tr_TR',
+        34 => 'uk',
+        35 => 'vi',
+        36 => 'zh_HK',
+      ),
+    ),
+  ),
+  'Select Plugin(s)' => 
+  array (
+    'backuply' => 
+    array (
+      'tag' => '<input type="checkbox" name="backuply" id="backuply" value="on" class="soft-left-checkbox" style="float: left;margin-right: 8px;"  >',
+      'head' => 'Backups (Backuply)',
+      'exp' => 'Backup your WordPress website, and save your site from loss of data because of server crashes, hacks, dodgy updates, or bad plugins.<br />
+		If selected Backuply plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/backuply/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'speedycache' => 
+    array (
+      'tag' => '<input type="checkbox" class="soft-left-checkbox" name="speedycache" id="speedycache" value="off"  >',
+      'head' => 'Improve Page Speed (SpeedyCache)',
+      'exp' => 'Speed up your WordPress website and improve page ranking !',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'loginizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="loginizer" id="loginizer" value="on"  >',
+      'head' => 'Limit Login Attempts (Loginizer)',
+      'exp' => 'Protect your site against bruteforce attacks by limiting the number of login attempts for your WordPress installation.<br />
+		If selected Loginizer plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/loginizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'gosmtp' => 
+    array (
+      'tag' => '<input type="checkbox" name="gosmtp" id="gosmtp" class="soft-left-checkbox" value="on"  >',
+      'head' => 'Email with SMTP (GoSMTP)',
+      'exp' => 'GoSMTP send emails from your WordPress site using your preferred SMTP provider like Gmail, Outlook, AWS, Zoho, SMTP.com, Sendinblue, Mailgun, Postmark, Sendgrid, Sparkpost, Sendlayer or any custom SMTP provider.<br />
+		Click <a href="https://wordpress.org/plugins/gosmtp/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'fileorganizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="fileorganizer" id="fileorganizer" class="soft-left-checkbox" value="on"  >',
+      'head' => 'File Manager(FileOrganizer)',
+      'exp' => 'FileOrganizer is a plugin that helps you to manage all files in your WordPress Site. FileOrganizer provides you the ability to edit, delete, upload, download, copy and paste files and folders.<br />
+		Click <a href="https://wordpress.org/plugins/fileorganizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'classic-editor' => 
+    array (
+      'tag' => '<input type="checkbox" name="classic-editor" id="classic-editor" value="off"  >',
+      'head' => 'Classic Editor',
+      'exp' => 'Classic Editor restores the previous WordPress editor and the Edit Post screen and makes it possible to use the plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor.<br />
+		If selected classic-editor plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/classic-editor/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+)
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] Software Info : array (
+  'overview' => '<img src="logo.png" style="float:right;" alt="" /><font size="5" color="#182e7a">WordPress</font> is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.<br /><br />
+		The core software is built by hundreds of community volunteers, and when you\'re ready for more there are thousands of plugins and themes available to transform your site into almost anything you can imagine.
+		<br /><br />Over 60 million people have chosen WordPress to power the place on the web they call "home" we\'d love you to join the family.
+		<br /><br />
+		WordPress is an <a href="http://opensource.org/" target="_blank">Open Source</a> project, which means there are hundreds of people all over the world working on it. (More than most commercial platforms.) It also means you are free to use it for anything from your recipe site to a Fortune 500 web site without paying anyone a license fee.',
+  'install' => '',
+  'features' => 'WordPress powers more than 23% of the web - a figure that rises every day. Everything from simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with WordPress.<br /><br />
+WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. This makes it flexible while still being easy-to-use.<br /><br />
+The following is a list of some of the features that come as standard with WordPress; however, there are literally thousands of plugins that extend what WordPress does, so the actual functionality is nearly limitless. You are also free to do whatever you like with the WordPress code, extend it or modify in any way or use it for commercial projects without any licensing fees. That is the beauty of free software, free refers not only to price but also the freedom to have complete control over it.<br /><br />
+<ul><li><strong>Simplicity</strong>
+Simplicity makes it possible for you to get online and get publishing, quickly. Nothing should get in the way of you getting your website up and your content out there. WordPress is built to make that happen.
+</li>
+<li><strong>Flexibility</strong>
+With WordPress, you can create any type of website you want: a personal blog or website, a photoblog, a business website, a professional portfolio, a government website, a magazine or news website, an online community, even a network of websites. You can make your website beautiful with themes, and extend it with plugins. You can even build your very own application.
+</li>
+<li><strong>Publish with Ease</strong>
+If you\'ve ever created a document, you\'re already a whizz at creating content with WordPress. You can create Posts and Pages, format them easily, insert media, and with the click of a button your content is live and on the web.
+</li>
+<li><strong>Publishing Tools</strong>
+WordPress makes it easy for you to manage your content. Create drafts, schedule publication, and look at your post revisions. Make your content public or private, and secure posts and pages with a password.
+</li>
+<li><strong>User Management</strong>
+Not everyone requires the same access to your website. Administrators manage the site, editors work with content, authors and contributors write that content, and subscribers have a profile that they can manage. This lets you have a variety of contributors to your website, and let others simply be part of your community.
+</li>
+<li><strong>Media Management</strong>
+They say a picture says a thousand words, which is why it\'s important for you to be able to quickly and easily upload images and media to WordPress. Drag and drop your media into the uploader to add it to your website. Add alt text, captions, and titles, and insert images and galleries into your content. We\'ve even added a few image editing tools you can have fun with.
+</li>
+<li><strong>Full Standards Compliance</strong>
+Every piece of WordPress generated code is in full compliance with the standards set by the W3C. This means that your website will work in today\'s browser, while maintaining forward compatibility with the next generation of browser. Your website is a beautiful thing, now and in the future.
+</li>
+<li><strong>Easy Theme System</strong>
+WordPress comes bundled with two default themes, but if they aren\'t for you there\'s a theme directory with thousands of themes for you to create a beautiful website. None of those to your taste? Upload your own theme with the click of a button. It only takes a few seconds for you to give your website a complete makeover.
+</li>
+<li><strong>Extend with Plugins</strong>
+WordPress comes packed full of features for every user, for every other feature there\'s a plugin directory with thousands of plugins. Add complex galleries, social networking, forums, social media widgets, spam protection, calendars, fine-tune controls for search engine optimization, and forms.
+</li>
+<li><strong>Built-in Comments</strong>
+Your blog is your home, and comments provide a space for your friends and followers to engage with your content. WordPress\'s comment tools give you everything you need to be a forum for discussion and to moderate that discussion.
+</li>
+<li><strong>Search Engine Optimized</strong>
+WordPress is optimized for search engines right out of the box. For more fine-grained SEO control, there are plenty of <a href="https://wordpress.org/plugins/search.php?q=SEO">SEO plugins</a> to take care of that for you.
+</li>
+<li><strong>Multilingual</strong>
+WordPress is available in more than 70 languages. If you or the person you\'re building the website for would prefer to use WordPress in a language other than English, <a href="https://codex.wordpress.org/WordPress_in_Your_Language">that\'s easy to do</a>.
+</li>
+<li><strong>Own Your Data</strong>
+Hosted services come and go. If you\'ve ever used a service that disappeared, you know how traumatic that can be. If you\'ve ever seen adverts appear on your website, you\'ve probably been pretty annoyed. Using WordPress means no one has access to your content. Own your data, all of it - your website, your content, your data.
+</li>
+<li><strong>Freedom</strong>
+WordPress is licensed under the GPL which was created to protect your freedoms. You are free to use WordPress in any way you choose: install it, use it, modify it, distribute it. Software freedom is the foundation that WordPress is built on.
+</li>
+<li><strong>Community</strong>
+As the most popular open source CMS on the web, WordPress has a vibrant and supportive community. Ask a question on the support forums and get help from a volunteer, attend a WordCamp or Meetup to learn more about WordPress, read blogs posts and tutorials about WordPress. Community is at the heart of WordPress, making it what it is today.
+</li>
+<li><strong>Contribute</strong>
+You can be WordPress too! Help to build WordPress, answer questions on the support forums, write documentation, translate WordPress into your language, speak at a WordCamp, write about WordPress on your blog. Whatever your skill, we\'d love to have you!
+</li>
+</ul>',
+  'demo' => 'http://www.softaculous.com/demos/WordPress',
+  'ratings' => 'http://www.softaculous.com/softwares/blogs/WordPress',
+  'support' => 'http://www.wordpress.org/',
+  'release_date' => '15-11-2022',
+  'mod' => '222',
+  'mod_files' => '1',
+  'import' => true,
+)
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] Finished calling pre install hooks
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] Task Key : R7uymoaXJNMNjAktU6ssSL8ArDql3RSR
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] http://kurisaw.42web.io Completed DB Details Checks : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_wp3',
+  'softdbuser' => '33829184_5',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => '9zD4np-S[5',
+)
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] http://kurisaw.42web.io Processed Posted Settings : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_wp3',
+  'softdbuser' => '33829184_5',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => '9zD4np-S[5',
+  'dbprefix' => 'wplogb_',
+  'site_name' => 'KurisaW-Collaborative',
+  'site_desc' => 'kurisaW&#039;s personal collaboration',
+  'multisite' => '',
+  'disable_wp_cron' => '',
+  'admin_username' => 'kurisaW',
+  'admin_pass' => '$P$BxjwDocbw6dTvSc70yb2OHhtpLNXjg1',
+  'admin_email' => '2053731441@qq.com',
+  'language' => 'zh_CN',
+  'backuply' => '',
+  'speedycache' => '',
+  'loginizer' => '',
+  'gosmtp' => '',
+  'fileorganizer' => '',
+  'classic-editor' => '',
+)
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] http://kurisaw.42web.io Finished loading __post_settings
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] http://kurisaw.42web.io Completed Requirement Checks
+
+[epiz_33829184] [2023-03-19 05:38:43] [software] http://kurisaw.42web.io Creating DB : epiz_33829184_wp3 and DB User : 33829184_5
+
+[epiz_33829184] [2023-03-19 05:38:49] [software] http://kurisaw.42web.io Unzipped Package successfully
+
+[epiz_33829184] [2023-03-19 05:38:49] [software] http://kurisaw.42web.io Calling Software installer
+
+[epiz_33829184] [2023-03-19 05:39:10] [software] http://kurisaw.42web.io Finished Software installer
+
+[epiz_33829184] [2023-03-19 05:39:10] [software] http://kurisaw.42web.io Modifying Scripts footer links
+
+[epiz_33829184] [2023-03-19 05:39:10] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentythree/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 05:39:10] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentytwo/inc/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 05:39:10] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentyone/footer.php
+
+[epiz_33829184] [2023-03-19 05:39:10] [software] http://kurisaw.42web.io Saving installation details
+
+[epiz_33829184] [2023-03-19 05:39:10] [software] http://kurisaw.42web.io Finished Install
+
+[epiz_33829184] [2023-03-19 05:44:42] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 05:58:18] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 05:59:14] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 06:00:29] [remove] http://kurisaw.42web.io Finished calling pre remove hook
+
+[epiz_33829184] [2023-03-19 06:00:29] [remove] http://kurisaw.42web.io Task Key : OsaItpRMztTEV3iL3TSxrFQqzmdO2HwL
+
+[epiz_33829184] [2023-03-19 06:00:30] [remove] http://kurisaw.42web.io Database and Database User Removed
+
+[epiz_33829184] [2023-03-19 06:00:33] [remove] http://kurisaw.42web.io Directory Removed
+
+[epiz_33829184] [2023-03-19 06:00:33] [remove] http://kurisaw.42web.io Finished Remove
+
+[epiz_33829184] [2023-03-19 06:01:08] [software] Ajax HTTPS Check : https://kurisaw.42web.io | Result : false
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] Software Details : array (
+  'name' => 'WordPress',
+  'softname' => 'wp',
+  'desc' => 'WordPress is a state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.',
+  'ins' => 1,
+  'cat' => 'blogs',
+  'type' => 'php',
+  'ver' => '6.1.1',
+  'pre_down' => 1,
+  'path' => '/var/softaculous/wp',
+  'has_theme' => 'WordPress',
+  'update_plugins' => 1,
+  'update_themes' => 1,
+  'verify_dom' => 0,
+  'has_minor' => 1,
+  'idn_dir' => 1,
+  'spacereq' => '66464155',
+  'branch' => 
+  array (
+    26 => 
+    array (
+      'min' => '',
+      'ver' => '6.1.1',
+    ),
+    702 => 
+    array (
+      'min' => '',
+      'ver' => '5.9.5',
+    ),
+    694 => 
+    array (
+      'min' => '',
+      'ver' => '5.8.6',
+    ),
+    684 => 
+    array (
+      'min' => '',
+      'ver' => '5.7.8',
+    ),
+    678 => 
+    array (
+      'min' => '',
+      'ver' => '5.6.10',
+    ),
+    672 => 
+    array (
+      'min' => '',
+      'ver' => '5.5.11',
+    ),
+    666 => 
+    array (
+      'min' => '',
+      'ver' => '5.4.12',
+    ),
+    660 => 
+    array (
+      'min' => '',
+      'ver' => '5.3.14',
+    ),
+    656 => 
+    array (
+      'min' => '',
+      'ver' => '5.2.17',
+    ),
+    650 => 
+    array (
+      'min' => '',
+      'ver' => '5.1.15',
+    ),
+    648 => 
+    array (
+      'min' => '',
+      'ver' => '5.0.18',
+    ),
+    646 => 
+    array (
+      'min' => '',
+      'ver' => '4.9.22',
+    ),
+  ),
+  'adminurl' => 'wp-admin/',
+)
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] Software Settings : array (
+  'Database Settings' => 
+  array (
+    'dbprefix' => 
+    array (
+      'tag' => '<input type="text" name="dbprefix" id="dbprefix" size="30" value="wpre_">',
+      'head' => 'Table Prefix',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'wp_',
+    ),
+  ),
+  'Site Settings' => 
+  array (
+    'site_name' => 
+    array (
+      'tag' => '<input type="text" name="site_name" id="site_name" size="30" value="KurisaW-Collaborative">',
+      'head' => 'Site Name',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 'My Blog',
+    ),
+    'site_desc' => 
+    array (
+      'tag' => '<input type="text" name="site_desc" id="site_desc" size="30" value="kurisaW&#039;s personal collaboration">',
+      'head' => 'Site Description',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => true,
+      'quick_install' => NULL,
+      'orig_val' => 'My WordPress Blog',
+    ),
+    'multisite' => 
+    array (
+      'tag' => '<input type="checkbox" name="multisite" id="multisite" value="off"  >',
+      'head' => 'Enable Multisite (WPMU)',
+      'exp' => 'This feature will Enable Multisite option for your WordPress blog. <br />Your server must support Apache mod_rewrite to use this feature.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'disable_wp_cron' => 
+    array (
+      'save' => true,
+      'tag' => '<input type="checkbox" name="disable_wp_cron" id="disable_wp_cron" value="off" save="true"  >',
+      'head' => 'Disable WordPress Cron',
+      'exp' => 'If selected, WordPress cron will be disabled and a cron job will be added in your control panel to be executed twice an hour.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+  'Admin Account' => 
+  array (
+    'admin_username' => 
+    array (
+      'tag' => '<input type="text" name="admin_username" id="admin_username" size="30" value="kurisaW">',
+      'head' => 'Admin Username',
+      'exp' => NULL,
+      'handle' => '__admin_username',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+    'admin_pass' => 
+    array (
+      'tag' => '<input type="text" autocomplete="off" name="admin_pass" id="admin_pass" size="30" value="wyq@2624192634..">',
+      'head' => 'Admin Password',
+      'exp' => NULL,
+      'handle' => '__ad_pass',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'pass',
+    ),
+    'admin_email' => 
+    array (
+      'tag' => '<input type="text" name="admin_email" id="admin_email" size="30" value="2053731441@qq.com" softmail="true">',
+      'head' => 'Admin Email',
+      'exp' => NULL,
+      'handle' => '__email_address',
+      'optional' => NULL,
+      'quick_install' => 1,
+      'orig_val' => 'admin',
+    ),
+  ),
+  'Choose Language' => 
+  array (
+    'language' => 
+    array (
+      'tag' => '<select name="language" id="language">
+					<option value="en">English</option>
+					<option value="ar">Arabic</option>
+					<option value="sq">Albanian</option>
+					<option value="bg_BG">Bulgarian</option>
+					<option value="ca">Catalan</option>
+					<option value="zh_CN" selected="selected">Chinese - Simplified</option>
+					<option value="zh_TW">Chinese - Traditional</option>
+					<option value="hr">Croatian</option>	
+					<option value="cs_CZ">Czech</option>
+					<option value="da_DK">Danish</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="fi">Finnish</option>
+					<option value="fr_FR">French</option>
+					<option value="de_DE">German</option>
+					<option value="el">Greek</option>
+					<option value="he_IL">Hebrew</option>
+					<option value="hu_HU">Hungarian</option>	
+					<option value="id_ID">Indonesian</option>
+					<option value="it_IT">Italian</option>	
+					<option value="ja">Japanese</option>
+					<option value="ko_KR">Korean</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="fa_IR">Persian</option>
+					<option value="pl_PL">Polish</option>	
+					<option value="pt_PT">Portuguese</option>
+					<option value="pt_BR">Portuguese - BR</option>
+					<option value="ro_RO">Romanian</option>
+					<option value="ru_RU">Russian</option>
+					<option value="sl_SI">Slovenian</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="es_ES">Spanish</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="th">Thai</option>
+					<option value="tr_TR">Turkish</option>
+					<option value="uk">Ukrainian</option>
+					<option value="vi">Vietnamese</option>
+					<option value="zh_HK">Chinese - Hong Kong</option>
+				</select>',
+      'head' => 'Select Language',
+      'exp' => NULL,
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => NULL,
+      'orig_val' => 
+      array (
+        0 => 'en',
+        1 => 'ar',
+        2 => 'sq',
+        3 => 'bg_BG',
+        4 => 'ca',
+        5 => 'zh_CN',
+        6 => 'zh_TW',
+        7 => 'hr',
+        8 => 'cs_CZ',
+        9 => 'da_DK',
+        10 => 'nl_NL',
+        11 => 'fi',
+        12 => 'fr_FR',
+        13 => 'de_DE',
+        14 => 'el',
+        15 => 'he_IL',
+        16 => 'hu_HU',
+        17 => 'id_ID',
+        18 => 'it_IT',
+        19 => 'ja',
+        20 => 'ko_KR',
+        21 => 'nb_NO',
+        22 => 'fa_IR',
+        23 => 'pl_PL',
+        24 => 'pt_PT',
+        25 => 'pt_BR',
+        26 => 'ro_RO',
+        27 => 'ru_RU',
+        28 => 'sl_SI',
+        29 => 'sk_SK',
+        30 => 'es_ES',
+        31 => 'sv_SE',
+        32 => 'th',
+        33 => 'tr_TR',
+        34 => 'uk',
+        35 => 'vi',
+        36 => 'zh_HK',
+      ),
+    ),
+  ),
+  'Select Plugin(s)' => 
+  array (
+    'backuply' => 
+    array (
+      'tag' => '<input type="checkbox" name="backuply" id="backuply" value="on" class="soft-left-checkbox" style="float: left;margin-right: 8px;"  >',
+      'head' => 'Backups (Backuply)',
+      'exp' => 'Backup your WordPress website, and save your site from loss of data because of server crashes, hacks, dodgy updates, or bad plugins.<br />
+		If selected Backuply plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/backuply/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'speedycache' => 
+    array (
+      'tag' => '<input type="checkbox" class="soft-left-checkbox" name="speedycache" id="speedycache" value="off"  >',
+      'head' => 'Improve Page Speed (SpeedyCache)',
+      'exp' => 'Speed up your WordPress website and improve page ranking !',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'loginizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="loginizer" id="loginizer" value="on"  >',
+      'head' => 'Limit Login Attempts (Loginizer)',
+      'exp' => 'Protect your site against bruteforce attacks by limiting the number of login attempts for your WordPress installation.<br />
+		If selected Loginizer plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/loginizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'gosmtp' => 
+    array (
+      'tag' => '<input type="checkbox" name="gosmtp" id="gosmtp" class="soft-left-checkbox" value="on"  >',
+      'head' => 'Email with SMTP (GoSMTP)',
+      'exp' => 'GoSMTP send emails from your WordPress site using your preferred SMTP provider like Gmail, Outlook, AWS, Zoho, SMTP.com, Sendinblue, Mailgun, Postmark, Sendgrid, Sparkpost, Sendlayer or any custom SMTP provider.<br />
+		Click <a href="https://wordpress.org/plugins/gosmtp/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'fileorganizer' => 
+    array (
+      'tag' => '<input type="checkbox" name="fileorganizer" id="fileorganizer" class="soft-left-checkbox" value="on"  >',
+      'head' => 'File Manager(FileOrganizer)',
+      'exp' => 'FileOrganizer is a plugin that helps you to manage all files in your WordPress Site. FileOrganizer provides you the ability to edit, delete, upload, download, copy and paste files and folders.<br />
+		Click <a href="https://wordpress.org/plugins/fileorganizer/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+    'classic-editor' => 
+    array (
+      'tag' => '<input type="checkbox" name="classic-editor" id="classic-editor" value="off"  >',
+      'head' => 'Classic Editor',
+      'exp' => 'Classic Editor restores the previous WordPress editor and the Edit Post screen and makes it possible to use the plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor.<br />
+		If selected classic-editor plugin will be installed and activated with your installation.<br />
+		Click <a href="https://wordpress.org/plugins/classic-editor/" target="_blank">here</a> to visit plugin site.',
+      'handle' => NULL,
+      'optional' => NULL,
+      'quick_install' => 1,
+      'admintag' => 1,
+      'enabled' => 1,
+      'editable' => 1,
+    ),
+  ),
+)
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] Software Info : array (
+  'overview' => '<img src="logo.png" style="float:right;" alt="" /><font size="5" color="#182e7a">WordPress</font> is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.<br /><br />
+		The core software is built by hundreds of community volunteers, and when you\'re ready for more there are thousands of plugins and themes available to transform your site into almost anything you can imagine.
+		<br /><br />Over 60 million people have chosen WordPress to power the place on the web they call "home" we\'d love you to join the family.
+		<br /><br />
+		WordPress is an <a href="http://opensource.org/" target="_blank">Open Source</a> project, which means there are hundreds of people all over the world working on it. (More than most commercial platforms.) It also means you are free to use it for anything from your recipe site to a Fortune 500 web site without paying anyone a license fee.',
+  'install' => '',
+  'features' => 'WordPress powers more than 23% of the web - a figure that rises every day. Everything from simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with WordPress.<br /><br />
+WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. This makes it flexible while still being easy-to-use.<br /><br />
+The following is a list of some of the features that come as standard with WordPress; however, there are literally thousands of plugins that extend what WordPress does, so the actual functionality is nearly limitless. You are also free to do whatever you like with the WordPress code, extend it or modify in any way or use it for commercial projects without any licensing fees. That is the beauty of free software, free refers not only to price but also the freedom to have complete control over it.<br /><br />
+<ul><li><strong>Simplicity</strong>
+Simplicity makes it possible for you to get online and get publishing, quickly. Nothing should get in the way of you getting your website up and your content out there. WordPress is built to make that happen.
+</li>
+<li><strong>Flexibility</strong>
+With WordPress, you can create any type of website you want: a personal blog or website, a photoblog, a business website, a professional portfolio, a government website, a magazine or news website, an online community, even a network of websites. You can make your website beautiful with themes, and extend it with plugins. You can even build your very own application.
+</li>
+<li><strong>Publish with Ease</strong>
+If you\'ve ever created a document, you\'re already a whizz at creating content with WordPress. You can create Posts and Pages, format them easily, insert media, and with the click of a button your content is live and on the web.
+</li>
+<li><strong>Publishing Tools</strong>
+WordPress makes it easy for you to manage your content. Create drafts, schedule publication, and look at your post revisions. Make your content public or private, and secure posts and pages with a password.
+</li>
+<li><strong>User Management</strong>
+Not everyone requires the same access to your website. Administrators manage the site, editors work with content, authors and contributors write that content, and subscribers have a profile that they can manage. This lets you have a variety of contributors to your website, and let others simply be part of your community.
+</li>
+<li><strong>Media Management</strong>
+They say a picture says a thousand words, which is why it\'s important for you to be able to quickly and easily upload images and media to WordPress. Drag and drop your media into the uploader to add it to your website. Add alt text, captions, and titles, and insert images and galleries into your content. We\'ve even added a few image editing tools you can have fun with.
+</li>
+<li><strong>Full Standards Compliance</strong>
+Every piece of WordPress generated code is in full compliance with the standards set by the W3C. This means that your website will work in today\'s browser, while maintaining forward compatibility with the next generation of browser. Your website is a beautiful thing, now and in the future.
+</li>
+<li><strong>Easy Theme System</strong>
+WordPress comes bundled with two default themes, but if they aren\'t for you there\'s a theme directory with thousands of themes for you to create a beautiful website. None of those to your taste? Upload your own theme with the click of a button. It only takes a few seconds for you to give your website a complete makeover.
+</li>
+<li><strong>Extend with Plugins</strong>
+WordPress comes packed full of features for every user, for every other feature there\'s a plugin directory with thousands of plugins. Add complex galleries, social networking, forums, social media widgets, spam protection, calendars, fine-tune controls for search engine optimization, and forms.
+</li>
+<li><strong>Built-in Comments</strong>
+Your blog is your home, and comments provide a space for your friends and followers to engage with your content. WordPress\'s comment tools give you everything you need to be a forum for discussion and to moderate that discussion.
+</li>
+<li><strong>Search Engine Optimized</strong>
+WordPress is optimized for search engines right out of the box. For more fine-grained SEO control, there are plenty of <a href="https://wordpress.org/plugins/search.php?q=SEO">SEO plugins</a> to take care of that for you.
+</li>
+<li><strong>Multilingual</strong>
+WordPress is available in more than 70 languages. If you or the person you\'re building the website for would prefer to use WordPress in a language other than English, <a href="https://codex.wordpress.org/WordPress_in_Your_Language">that\'s easy to do</a>.
+</li>
+<li><strong>Own Your Data</strong>
+Hosted services come and go. If you\'ve ever used a service that disappeared, you know how traumatic that can be. If you\'ve ever seen adverts appear on your website, you\'ve probably been pretty annoyed. Using WordPress means no one has access to your content. Own your data, all of it - your website, your content, your data.
+</li>
+<li><strong>Freedom</strong>
+WordPress is licensed under the GPL which was created to protect your freedoms. You are free to use WordPress in any way you choose: install it, use it, modify it, distribute it. Software freedom is the foundation that WordPress is built on.
+</li>
+<li><strong>Community</strong>
+As the most popular open source CMS on the web, WordPress has a vibrant and supportive community. Ask a question on the support forums and get help from a volunteer, attend a WordCamp or Meetup to learn more about WordPress, read blogs posts and tutorials about WordPress. Community is at the heart of WordPress, making it what it is today.
+</li>
+<li><strong>Contribute</strong>
+You can be WordPress too! Help to build WordPress, answer questions on the support forums, write documentation, translate WordPress into your language, speak at a WordCamp, write about WordPress on your blog. Whatever your skill, we\'d love to have you!
+</li>
+</ul>',
+  'demo' => 'http://www.softaculous.com/demos/WordPress',
+  'ratings' => 'http://www.softaculous.com/softwares/blogs/WordPress',
+  'support' => 'http://www.wordpress.org/',
+  'release_date' => '15-11-2022',
+  'mod' => '222',
+  'mod_files' => '1',
+  'import' => true,
+)
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] Finished calling pre install hooks
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] Task Key : S12zKOHVp831o9Qicr1bdHxhPfUeJnkO
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] http://kurisaw.42web.io Completed DB Details Checks : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w398',
+  'softdbuser' => '33829184_6',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => '01@8]Sp426',
+)
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] http://kurisaw.42web.io Processed Posted Settings : array (
+  'adminurl' => 'wp-admin/',
+  'softdomain' => 'kurisaw.42web.io',
+  'softdirectory' => '',
+  'softpath' => '/home/vol18_1/epizy.com/epiz_33829184/htdocs',
+  'softurl' => 'http://kurisaw.42web.io',
+  'softdb' => 'epiz_33829184_w398',
+  'softdbuser' => '33829184_6',
+  'softdbhost' => 'sql208.byetcluster.com',
+  'softdbpass' => '01@8]Sp426',
+  'dbprefix' => 'wpre_',
+  'site_name' => 'KurisaW-Collaborative',
+  'site_desc' => 'kurisaW&#039;s personal collaboration',
+  'multisite' => '',
+  'disable_wp_cron' => '',
+  'admin_username' => 'kurisaW',
+  'admin_pass' => '$P$B2eDx3J7HVmVOTLljKiJ/4hg2o2bjU/',
+  'admin_email' => '2053731441@qq.com',
+  'language' => 'zh_CN',
+  'backuply' => '',
+  'speedycache' => '',
+  'loginizer' => '',
+  'gosmtp' => '',
+  'fileorganizer' => '',
+  'classic-editor' => '',
+)
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] http://kurisaw.42web.io Finished loading __post_settings
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] http://kurisaw.42web.io Completed Requirement Checks
+
+[epiz_33829184] [2023-03-19 06:01:46] [software] http://kurisaw.42web.io Creating DB : epiz_33829184_w398 and DB User : 33829184_6
+
+[epiz_33829184] [2023-03-19 06:01:52] [software] http://kurisaw.42web.io Unzipped Package successfully
+
+[epiz_33829184] [2023-03-19 06:01:52] [software] http://kurisaw.42web.io Calling Software installer
+
+[epiz_33829184] [2023-03-19 06:02:12] [software] http://kurisaw.42web.io Finished Software installer
+
+[epiz_33829184] [2023-03-19 06:02:12] [software] http://kurisaw.42web.io Modifying Scripts footer links
+
+[epiz_33829184] [2023-03-19 06:02:12] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentythree/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 06:02:12] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentytwo/inc/patterns/footer-default.php
+
+[epiz_33829184] [2023-03-19 06:02:12] [software] http://kurisaw.42web.io Footer Links File : /home/vol18_1/epizy.com/epiz_33829184/htdocs/wp-content/themes/twentytwentyone/footer.php
+
+[epiz_33829184] [2023-03-19 06:02:12] [software] http://kurisaw.42web.io Saving installation details
+
+[epiz_33829184] [2023-03-19 06:02:12] [software] http://kurisaw.42web.io Finished Install
+
